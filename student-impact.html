@@ -15,9 +15,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/gallery-styles.css" rel="stylesheet">
+
+    <script src="scripts/language-utils.js"></script>
 </head>
 
 <body>
+    <div class="language-toggle">
+        <button id="langToggle" onclick="toggleLanguage()">EN</button>
+    </div>
 
     <div class="container-fluid d-flex h-100 p-3 mx-auto flex-column" style="max-width: 65rem;">
         <header
@@ -30,195 +35,101 @@
 
                 <img id="navBannerX" src="images/x-lg.svg" class="m-2">
 
-                <a class="h-100" href="index.html"><img id="stigmaNavLogo" src="images/mindoverstigma.png" class="h-100"
-                        alt="Banner for the special edition, with the Mind Over Stigma title displayed over a cloud graphic"></a>
+                <a class="h-100" href="index.html"><img id="stigmaNavLogo" src="images/wrap_title.png" class="h-100"
+                        alt="Banner for the special edition, with the Nuestro Legado Entretejido title"></a>
             </div>
 
 
             <nav class="nav nav-masthead pt-2 justify-content-center align-items-center">
-                <a class="nav-link fw-bold py-1 px-0 active" href="student-impact.html">Student Impact</a>
-                <a class="nav-link fw-bold py-1 px-0" href="community-corner.html">Community Corner</a>
-                <a class="nav-link fw-bold py-1 px-0" href="caiman.html">Caim&aacute;n</a>
-                <a class="nav-link fw-bold py-1 px-0" href="voices-unveiled.html">Voices Unveiled</a>
+                <a class="nav-link fw-bold py-1 px-0 active" href="student-impact.html">Section 1</a>
+                <a class="nav-link fw-bold py-1 px-0" href="blank.html">Section 2</a>
+                <a class="nav-link fw-bold py-1 px-0" href="blank.html">Section 3</a>
+                <a class="nav-link fw-bold py-1 px-0" href="blank.html">Section 4</a>
             </nav>
         </header>
 
         <main id="cardContainer" class="py-3 d-flex flex-column gap-4">
-            <div class="card w-100" id="mh-uf-resources">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start"
-                            src="images/ufmentalhealth.jpg"></div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Mental health is a rising issue among UF students, survey shows</h5>
-                            <p class="card-text">Where UF deviates from national and statewide trends is in students’
-                                belief that the university prioritizes their health and wellbeing. Only about 36% of UF
-                                students surveyed in 2022 believed their health and wellbeing are a priority for their
-                                university, nearly a 15 percentage point decrease from 2020, according to NCHA data.
-                                Overall, UF students experienced a post-COVID-19 spike in mental illnesses such as
-                                anxiety and depression.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="acps">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/acps.jpg"></div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">‘It's probably helping some people’: High school students react to
-                                Alachua County school mental health curriculum</h5>
-                            <p class="card-text">The Florida Department of Education requires middle and high school
-                                students to attend at least five hours of mental health education a year as of 2019.
-                                Presentation topics vary from anxiety and depression to dating violence and substance
-                                abuse, and they come as slideshows, Zoom calls and videos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="sf-mhe">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/sfmhe.jpg"></div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Nonresidential? No problem: Santa Fe College students find community,
-                                involvement</h5>
-                            <p class="card-text">Despite having no on-campus housing, SF students have access to a
-                                variety of student organizations to get involved on campus and make friends. The college
-                                also offers an assortment of mental health services for students to take advantage of,
-                                as it is one of five community colleges in the state to have a counseling center.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="psychology-mhe">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/psychology.jpg">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Why study psychology?: UF program teaches students about mental
-                                health</h5>
-                            <p class="card-text">Conversations around mental health continue to grow every day in media
-                                and classrooms. With these conversations and life experiences, students show interest in
-                                degrees and careers in psychology.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="perception">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/perception.jpg">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Perception vs. reality: Drugs, alcohol and sex </h5>
-                            <p class="card-text">In the barrage of media depicting college life, it seems to revolve
-                                around trying anything and everything, but does first-hand information from college
-                                students really support that? A survey of UF students for the spring 2022 National
-                                College Health Assessment shows it’s complicated.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="baking-club">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/bakingclub.jpg">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">UF students connect through cookies, cakes and critical life lessons
-                            </h5>
-                            <p class="card-text">Baking4Wellness started with one young woman’s dream to bring her two
-                                most important values to her college campus: sweet treats and strength.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="basketball">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/basketball.jpg">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">‘I went through hell’: Florida women’s basketball guard overcame
-                                multiple injuries, mental exhaustion from old school</h5>
-                            <p class="card-text">Salgues’ mental state has been tested through both injury and
-                                isolation. In the aftermath of the COVID-19 pandemic, her and many athletes across the
-                                country experienced heightened levels of mental exhaustion, anxiety and depression —
-                                reportedly 1.5 to two times more than before the 2020 shutdown, according to data
-                                gathered by the NCAA in 2022.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="baseball">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/Florida-2.jpg">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Florida baseball embraces transfer portal with Alabama star Colby
-                                Shelton</h5>
-                            <p class="card-text">Being in a comfortable atmosphere is something that can benefit an
-                                athlete’s mental health. Although transferring schools can be a large transition,
-                                surrounding oneself with the right group of people can create a smooth acclimation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card w-100" id="volleyball">
-                <div class="g-0 row">
-                    <div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/volleyball.jpg">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Gators volleyball stays resilient despite season-ending injuries</h5>
-                            <p class="card-text">As the Gators volleyball team battled through the highs and lows of a
-                                demanding season, the toll on their mental resilience became increasingly apparent.
-                                Facing unforeseen adversities, including season-ending injuries to key players, the team
-                                went from an undefeated 8-0 record to a final 18-9 overall record.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- repeat card foe each other article-->
+            <div class="card w-100" id="latin-dance"><div class="g-0 row"><div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/latin-dance.jpg"></div><div class="col-md-8"><div class="card-body"><span class="lang-en" style="display: inline;"> <h5 class="card-title">Saving salsa: Gainesville community fights to keep free salsa classes</h5><p class="card-text"></p></span><span class="lang-es" style="display: none;"><h5 class="card-title"></h5><p class="card-text"></p></span></div></div></div></div><div class="card w-100" id="home-ink"><div class="g-0 row"><div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/home-ink.jpg"></div><div class="col-md-8"><div class="card-body"><span class="lang-en" style="display: inline;"> <h5 class="card-title">A home made of ink and blood</h5><p class="card-text"></p></span><span class="lang-es" style="display: none;"><h5 class="card-title">Un hogar de tinta y sangre</h5><p class="card-text"></p></span></div></div></div></div><div class="card w-100" id="children-book"><div class="g-0 row"><div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/children-book.jpg"></div><div class="col-md-8"><div class="card-body"><span class="lang-en" style="display: inline;"> <h5 class="card-title">Children’s book project captures untold Hispanic immigration stories</h5><p class="card-text"></p></span><span class="lang-es" style="display: none;"><h5 class="card-title">Proyecto de libros para niños capta historias nunca contadas de la inmigración hispana</h5><p class="card-text"></p></span></div></div></div></div><div class="card w-100" id="mary-cruz"><div class="g-0 row"><div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/.jpg"></div><div class="col-md-8"><div class="card-body"><span class="lang-en" style="display: inline;"> <h5 class="card-title">Painting a path to peace </h5><p class="card-text"></p></span><span class="lang-es" style="display: none;"><h5 class="card-title"></h5><p class="card-text"></p></span></div></div></div></div><div class="card w-100" id="paloma-pena"><div class="g-0 row"><div class="col-md-4"><img alt="..." class="img-fluid rounded-start" src="images/.jpg"></div><div class="col-md-8"><div class="card-body"><span class="lang-en" style="display: inline;"> <h5 class="card-title">Paloma Peña represents larger Dominican soccer movement on world stage</h5><p class="card-text"></p></span><span class="lang-es" style="display: none;"><h5 class="card-title">Paloma Peña representa un movimiento de futbol dominicano en un escenario mundial </h5><p class="card-text"></p></span></div></div></div></div>
         </main>
 
         <!-- Article Modal -->
         <div class="modal fade" id="articleContainer" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-lg ">
                 <div class="modal-content">
-                    <div class="modal-header flex-column align-items-start p-3 p-lg-4">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <div class="px-3 px-lg-4">
-                            <h1 id="articleTitle" class="fs-2"></h1>
-                            <h2 id="articleSubtitle" class="fs-5 fst-italic"></h2>
+                    <span class="lang-en">
 
-                            <div>By <span id="articleAuthor"></span></div>
-                            <div><span id="articleDate" class="fw-light"></span></div>
-
+                        <div class="modal-header flex-column align-items-start p-3 p-lg-4">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="px-3 px-lg-4">
+                                <h1 id="articleTitleEN" class="fs-2"></h1>
+                                <h2 id="articleSubtitleEN" class="fs-5 fst-italic"></h2>
+    
+                                <div>By <span id="articleAuthorEN"></span></div>
+                                <div><span id="articleDateEN" class="fw-light"></span></div>
+    
+                            </div>
                         </div>
-                    </div>
-                    <div class="modal-body d-flex flex-column px-4 px-lg-5 py-3 py-lg-4 row-gap-4 border-bottom">
-
-                        <div>
-                            <img id="articleCardImage"
-                                src="https://snworksceo.imgix.net/ufa/484fd7ae-8301-4b32-9a96-9f1eea343789.sized-1000x1000.png?w=1000"
-                                class="img-fluid rounded-top" alt="...">
-                            <div id="articleCardCaption"
-                                class="bg-dark text-white p-2 text-end fw-light rounded-bottom"></div>
+                        <div class="modal-body d-flex flex-column px-4 px-lg-5 py-3 py-lg-4 row-gap-4 border-bottom">
+    
+                            <div>
+                                <img id="articleCardImage"
+                                    src="https://snworksceo.imgix.net/ufa/484fd7ae-8301-4b32-9a96-9f1eea343789.sized-1000x1000.png?w=1000"
+                                    class="img-fluid rounded-top" alt="...">
+                                <div id="articleCardCaptionEN"
+                                    class="bg-dark text-white p-2 text-end fw-light rounded-bottom"></div>
+                            </div>
+    
+                            <div id="articleBodyEN">
+    
+                            </div>
+                            <div id="articleContactEN"><em></em></div>
+                        </div>
+                        <div class="px-4 px-lg-5 py-3 py-lg-4">
+                            <p id="articleAboutEN"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
-                        <div id="articleBody">
-
+                    </span>
+                    <span class="lang-es" style="display: none;">
+                    
+                        <div class="modal-header flex-column align-items-start p-3 p-lg-4">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="px-3 px-lg-4">
+                                <h1 id="articleTitleES" class="fs-2"></h1>
+                                <h2 id="articleSubtitleES" class="fs-5 fst-italic"></h2>
+    
+                                <div>Por <span id="articleAuthorES"></span></div>
+                                <div>Traducido por <span id="articleTranslator"></span></div>
+                                <div><span id="articleDateES" class="fw-light"></span></div>
+    
+                            </div>
                         </div>
-                    </div>
-                    <div class="px-4 px-lg-5 py-3 py-lg-4">
-                        <p id="articleAbout"></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                        <div class="modal-body d-flex flex-column px-4 px-lg-5 py-3 py-lg-4 row-gap-4 border-bottom">
+    
+                            <div>
+                                <img id="articleCardImage"
+                                    src="https://snworksceo.imgix.net/ufa/484fd7ae-8301-4b32-9a96-9f1eea343789.sized-1000x1000.png?w=1000"
+                                    class="img-fluid rounded-top" alt="...">
+                                <div id="articleCardCaptionES"
+                                    class="bg-dark text-white p-2 text-end fw-light rounded-bottom"></div>
+                            </div>
+    
+                            <div id="articleBodyES">
+    
+                            </div>
+                            <div id="articleContactES"><em></em></div>
+                        </div>
+                        <div class="px-4 px-lg-5 py-3 py-lg-4">
+                            <p id="articleAboutES"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </span>
                 </div>
             </div>
         </div>
@@ -239,7 +150,8 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="scripts/student-impact.js"></script>
-
+<!--     <script src="scripts/card-gen.js"></script>
+ -->
 </body>
 
 </html>

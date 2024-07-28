@@ -1,0 +1,13 @@
+{
+    "articles":[
+        {
+            "author":"Valentina Sandoval",
+            "title_en":"A home made of ink and blood",
+            "title_es":"Un hogar de tinta y sangre",
+            "image":"images/brain.png",
+            "text_en": [
+                ""
+            ]
+        }
+    ]
+}

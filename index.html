@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
 
-  <title>Mind Over Stigma - The Independent Florida Alligator</title>
+  <title>Nuestro Legado Entretejido - The Independent Florida Alligator</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -15,61 +15,38 @@
 
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
+
+  <script src="scripts/language-utils.js"></script>
 </head>
 
 <body class="text-center h-100">
 
   <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-between" style="max-width: 100rem;">
 
-    <!--
-    <header
-      class="d-flex w-100 flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-between mb-auto">
-      <div class="float-lg-start d-flex flex-row align-items-center">
-        <img id="navBannerAlligator" src="images/logo.png" class="mb-0"
-          alt="Graphic of a brain with various mental health components" height="50">
+    <div class="language-toggle">
+      <button id="langToggle" onclick="toggleLanguage()">EN</button>
+  </div>
 
-        <img id="navBannerX" src="images/x-lg.svg" alt="Bootstrap" class="m-2">
-
-        <img id="stigmaNavLogo" src="images/mindoverstigma.png"
-          alt="Banner for the special edition, with the Mind Over Stigma title displayed over a cloud graphic">
-      </div>
-
-
-      <nav class="nav nav-masthead float-lg-end justify-content-center align-items-center">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="data-dive.html">Data Dive</a>
-        <a class="nav-link fw-bold py-1 px-0" href="community-corner.html">Community Corner</a>
-        <a class="nav-link fw-bold py-1 px-0" href="athletics.html">Athletic Life</a>
-        <a class="nav-link fw-bold py-1 px-0" href="voices-unveiled.html">Voices Unveiled</a>
-      </nav>
-    </header>
-    -->
-
-    <main class="container px-3 m-auto d-flex flex-column flex-lg-row align-items-center justify-content-between">
-
-      <img id="stigmaNavLogo" src="images/mindoverstigma.png" class="w-100"
-        alt="Banner for the special edition, with the Mind Over Stigma title displayed over a cloud graphic">
-
-      <img id="brainAnimation" src="images/opt-ani.gif" class="pb-3 p-lg-3"
-        alt="Graphic of a brain with various mental health components">
+    <main class="container px-3 m-auto d-flex flex-column flex-lg-row align-items-center justify-content-between" role="main">
+      <img src="images/wrap_subject.png" id="dressImage" class="pb-3 p-lg-3" height="650px" width="800px" alt="Graphic of a woman with a dress composed of various culture elements and societal issues">
 
       <div id="aboutContainer" class="d-flex flex-column p-lg-2">
-        <img id="stigmaBodyLogo" src="images/mindoverstigma.png" class="pb-1"
-          alt="Banner for the special edition, with the Mind Over Stigma title displayed over a cloud graphic">
-        <p class="lead">This special edition focuses on the resilient individuals who embody the statistics of mental
-          health, aiming to shatter the stigma surrounding these conversations.</p>
-        <div id="bodyNavButts" class="d-flex flex-row align-items-center justify-content-center w-100">
-          <a href="#" class="btn btn-lg btn-light border-dark bg-dark m-1 p-3 text-nowrap w-50" data-bs-toggle="modal"
-            data-bs-target="#noteModal">Editors' Note</a>
-          <a id="start-button" href="student-impact.html"
-            class="btn btn-lg btn-info m-1 p-3 text-nowrap text-bg-light fw-b w-50 border border-dark">Start
-            Reading</a>
-        </div>
-        <!-- <p class="lead d-flex flex-row justify-content-center">
-          <a href="#" class="btn btn-lg btn-light border-dark bg-dark m-1 p-3 text-nowrap" data-bs-toggle="modal" data-bs-target="#noteModal">Editors' Note</a>
-          <a href="data-dive.html" class="btn btn-lg btn-light bg-primary m-1 p-3 text-nowrap">Start Reading</a>
-        </p>
-      -->
+          <img src="images/wrap_title.png" id="legadoBodyLogo" class="pb-1" alt="Banner for the special edition, with the Nuestro Legado Entretejido title">
+
+          <p id="lead" class="lang-en">This special edition focuses on ...</p>
+          <p id="lead" class="lang-es" style="display: none;">Esta edición especial se centra en ...</p>
+
+          <div id="bodyNavButts" class="d-flex flex-row align-items-center justify-content-center w-100">
+              <a href="#" class="btn btn-lg btn-light border-dark bg-dark m-1 p-3 text-nowrap w-50" data-bs-toggle="modal"
+                data-bs-target="#noteModal">
+                <span class="lang-en">Editors' Note</span>
+                <span class="lang-es" style="display: none;">Nota del Editor</span>
+              </a>
+              <a href="student-impact.html" id="start-button" class="btn btn-lg btn-info m-1 p-3 text-nowrap text-bg-light fw-b w-50 border border-dark">
+                  <span class="lang-en">Start Reading</span>
+                  <span class="lang-es" style="display: none;">Comenzar a Leer</span>
+              </a>
+          </div>
       </div>
     </main>
 
@@ -92,84 +69,34 @@
           <div class="px-4">
 
             <h1 id="articleTitle" class="fs-2">
-              Mind over Stigma:<br>Amplifying the mental health conversation
+              <span class="lang-en">[en editors note title]<br>[en editors note subtitle]</span>
+              <span class="lang-es" style="display: none;">[es editors note title]<br>[es editors note subtitle]</span>
             </h1>
 
-            <div>By <span id="articleAuthor">The Alligator Editorial Board</span></div>
+            <div>By <span id="articleAuthor">
+              <span class="lang-en">The Alligator Editorial Board</span>
+              <span class="lang-es" style="display: none;">El Consejo Editorial de The Alligator</span>
+            </span></div>
 
           </div>
         </div>
         <div class="modal-body d-flex flex-column px-5 py-4 row-gap-4 border-bottom">
           <div id="articleBody" class="text-start">
-            <p>During The Alligator&rsquo;s first meeting of every semester, almost every leadership team tells their
-              eager-eyed staff of 60 people to &ldquo;Take care of yourself. The Alligator should <i>never</i> come in
-              the way
-              of
-              your physical or mental health.&rdquo; While this sounds obvious, the truth is this mantra is often
-              overlooked for the sake of journalism.</p>
-            <p>More than 70% of local journalists in a more than 500 person survey reported experiencing personal and
-              work-related burnout, according to a 2023 survey by the Center for Innovation and Sustainability in Local
-              Media at the University of North Carolina Chapel Gill&rsquo;s Hussman School of Journalism and Media. Like
-              these journalists, The Alligator&rsquo;s editorial board has heard from staff members and editors alike
-              they
-              need a week off because they are sick or out of town. But, when it comes to addressing burnout and mental
-              health, it&rsquo;s another story.</p>
-            <p>Needing a break shouldn&rsquo;t necessitate a bar met only by physical condition. Mental health can be
-              just
-              as, if not more, difficult to navigate in a workplace setting.</p>
-            <p>These instances of forgetting to prioritize mental health led to this special edition. This collection of
-              stories, stemming from data analysis, is collectively called Mind over Stigma. The name is a play on the
-              common phrase &ldquo;mind over matter&rdquo; that often diminishes the real, important effects of mental
-              health. We hope The Alligator&rsquo;s reporting highlights people in the community and helps break the
-              stigma surrounding mental health conversations.</p>
-            <p>Recognizing burnout or other mental health-related conditions is critical to fostering a healthy newsroom
-              and destigmatizing conversations about mental health.</p>
-            <p>It&rsquo;s far too easy for journalists to become desensitized to the topics they cover. The Alligator
-              staff knows this all too well. From covering protests, bomb threats, unsettling legislation, war and more,
-              devastating news becomes normal for journalists.</p>
-            <p>A 2019 survey interviewed over 200 United States daily newspaper journalists and found that as the
-              frequency and intensity of journalists&rsquo; trauma coverage increased, so did the severity of their PTSD
-              symptoms. The journalists shared examples of emotional drain, painful flashbacks, anxiety, depression,
-              guilt
-              and coping mechanisms such as substance abuse, stemming from their work.</p>
-            <p>But the intersection of journalism and mental health isn&rsquo;t the only reason we produced this
-              edition.
-            </p>
-            <p>The practice of continuous pushing beyond feasible mental limits applies beyond the newsroom. Across
-              college campuses, students neglect their mental health or deem it as an insufficient excuse for taking a
-              break.</p>
-            <p>As college students, prioritizing mental health over education, jobs and social lives often feels like a
-              chore. We feel obliged to push ourselves beyond our limits, then push through the exhaustion that follows.
-              We struggle to adjust to the onset of mental health conditions like ADHD or anxiety, the toll they take on
-              our academic performance and finding the resources to alleviate them.</p>
-            <p>Between 2020 and 2022, the percentage of students surveyed at UF who reported being previously diagnosed
-              with anxiety rose by 40%. Similarly, the rate of ADHD increased by 81%, and the rate of depression rose by
-              43%.</p>
-            <p>Yet stigmas remain for students afflicted with these conditions and those who are not. The lack of
-              concreteness in describing mental ailments often minimizes the distress they inflict.<br>As student
-              journalists, the need for mental health care becomes more prevalent by each published byline.</p>
-            <p>It&rsquo;s important &mdash; but challenging, to say the least &mdash;- to not become numb to the people
-              and topics we as journalists cover.</p>
-            <p>First and foremost, The Alligator seeks to create equitable coverage of people. Journalists master the
-              art
-              of compartmentalization early on, gaining the ability to cover complex topics without breaching the ethics
-              of objectivity. But with the use of this skill comes the onset of desensitization.</p>
-            <p>When their stories, backgrounds and three-dimensionalities are glossed over and normalized, journalism
-              loses the human aspect necessary for that well-rounded coverage.<br>It&rsquo;s also just as crucial for
-              journalists to take care of their minds after covering hard topics. But putting down the pen and walking
-              away from the job to prioritize mental health can feel costly at times.</p>
-            <p>Recognizing the mental health crises facing students and journalists is the first step in forming
-              solutions.</p>
-            <p>Conversations like these, fostered by a commitment to promote mental health awareness and resources in
-              the
-              newsroom, on campus and in Gainesville are crucial. We are hopeful the conversations we have in our office
-              and in our paper promote the next generation of journalists to care for themselves the same way they care
-              for their stories.</p>
+            <span class="lang-en">
+              <p>[Insert editor's note (en) here]</p><p>[Paragraph 2...] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis faucibus mauris non condimentum. Phasellus ac ultricies massa. Nunc ut quam eros. Sed vulputate diam sit amet odio vestibulum, sit amet dignissim lacus bibendum. Integer faucibus nunc lectus, eu commodo ipsum finibus et. Fusce sed accumsan purus. Cras eget libero vitae diam tincidunt imperdiet. Sed blandit turpis eget sem tempor efficitur. Sed velit ante, gravida id faucibus quis, blandit sed tortor. Integer sagittis sapien ac dui mattis efficitur. Nunc ac consectetur magna. Ut viverra elit est, vel faucibus risus consequat eget. Sed tincidunt nec velit sed consectetur.</p>
+            </span>
+            <span class="lang-es" style="display: none;">
+              <p>[Insert editor's note (es) here]</p><p>[Parrafo 2...] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis faucibus mauris non condimentum. Phasellus ac ultricies massa. Nunc ut quam eros. Sed vulputate diam sit amet odio vestibulum, sit amet dignissim lacus bibendum. Integer faucibus nunc lectus, eu commodo ipsum finibus et. Fusce sed accumsan purus. Cras eget libero vitae diam tincidunt imperdiet. Sed blandit turpis eget sem tempor efficitur. Sed velit ante, gravida id faucibus quis, blandit sed tortor. Integer sagittis sapien ac dui mattis efficitur. Nunc ac consectetur magna. Ut viverra elit est, vel faucibus risus consequat eget. Sed tincidunt nec velit sed consectetur.</p>
+            </span>
+
           </div>
         </div>
         <div class="px-5 py-4">
-          <p id="articleAbout"><i>The Editorial Board consists of Editor-in-Chief Isabella Douglas, Engagement Managing
-              Editor Claire Grunewald, Digital Managing Editor Emma Behrmann and Opinions Editor Peyton Harris.</i>
+          <p id="articleAbout"><i>
+            <span class="lang-en">The Editorial Board consists of [insert current editorial board (en)].</span>
+            <span class="lang-es" style="display: none;">El Consejo Editorial está formado por [insert current editorial board (es)].</span>
+            
+          </i>
           <p>
         </div>
         <div class="modal-footer">
@@ -182,6 +109,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+
 
 </body>
 

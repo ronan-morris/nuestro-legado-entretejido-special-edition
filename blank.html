@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Student Impact - Mind Over Stigma - The Independent Florida Alligator</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/gallery-styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex h-100 p-3 mx-auto flex-column" style="max-width: 65rem;">
+        <header
+            class="container-fluid d-flex w-100 flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-between mb-auto">
+
+            <div class="float-lg-start d-flex flex-row align-items-center" style="height: 4rem;">
+
+                <a class="h-50" href="https://www.alligator.org/"><img id="navBannerAlligator" src="images/logo.png"
+                        class=" h-100 mb-0" alt="Graphic of a brain with various mental health components"></a>
+
+                <img id="navBannerX" src="images/x-lg.svg" class="m-2">
+
+                <a class="h-100" href="index.html"><img id="stigmaNavLogo" src="images/wrap_title.png" class="h-100"
+                        alt="Banner for the special edition, with the Nuestro Legado Entretejido title"></a>
+            </div>
+
+
+            <nav class="nav nav-masthead pt-2 justify-content-center align-items-center">
+                <a class="nav-link fw-bold py-1 px-0" href="student-impact.html">Section 1</a>
+                <a class="nav-link fw-bold py-1 px-0 active" href="blank.html">Section 2</a>
+                <a class="nav-link fw-bold py-1 px-0" href="blank.html">Section 3</a>
+                <a class="nav-link fw-bold py-1 px-0" href="blank.html">Section 4</a>
+            </nav>
+        </header>
+
+        <main id="cardContainer" class="py-3 d-flex flex-column gap-4">
+            
+        </main>
+
+        <!-- Article Modal -->
+        <div class="modal fade" id="articleContainer" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content">
+                    <div class="modal-header flex-column align-items-start p-3 p-lg-4">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="px-3 px-lg-4">
+                            <h1 id="articleTitle" class="fs-2"></h1>
+                            <h2 id="articleSubtitle" class="fs-5 fst-italic"></h2>
+
+                            <div>By <span id="articleAuthor"></span></div>
+                            <div><span id="articleDate" class="fw-light"></span></div>
+
+                        </div>
+                    </div>
+                    <div class="modal-body d-flex flex-column px-4 px-lg-5 py-3 py-lg-4 row-gap-4 border-bottom">
+
+                        <div>
+                            <img id="articleCardImage"
+                                src="https://snworksceo.imgix.net/ufa/484fd7ae-8301-4b32-9a96-9f1eea343789.sized-1000x1000.png?w=1000"
+                                class="img-fluid rounded-top" alt="...">
+                            <div id="articleCardCaption"
+                                class="bg-dark text-white p-2 text-end fw-light rounded-bottom"></div>
+                        </div>
+
+                        <div id="articleBody">
+
+                        </div>
+                    </div>
+                    <div class="px-4 px-lg-5 py-3 py-lg-4">
+                        <p id="articleAbout"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="d-flex flex-column justify-content-center align-items-center">
+            <div class="social-media">
+                <a href="https://www.facebook.com/floridaalligator/"><i class="fa fa-facebook mx-2"></i></a>
+                <a href="https://twitter.com/thealligator"><i class="fa fa-twitter mx-2"></i></a>
+                <a href="https://www.instagram.com/thealligator_/?hl=en"><i class="fa fa-instagram mx-2"></i></a>
+                <a href="https://www.linkedin.com/company/ifl-alligator/mycompany/"><i
+                        class="fa fa-linkedin mx-2"></i></a>
+            </div>
+            <p>&copy; The Independent Florida Alligator</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="scripts/student-impact.js"></script>
+
+</body>
+
+</html>

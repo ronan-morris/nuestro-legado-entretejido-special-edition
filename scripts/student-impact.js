@@ -12,50 +12,93 @@ window.addEventListener("load", (event) => {
 const myModal = new bootstrap.Modal(document.getElementById("articleContainer"), {});
 
 // Article
-document.getElementById('mh-uf-resources').addEventListener('click', function() {
+
+document.getElementById('latin-dance').addEventListener('click', function() {
     const myArticle = {
-        slug: "mh-uf-resources",
-        headline: "Mental health is a rising issue among UF students, survey shows",
-        subtitle: "NCHA data reveals faith in UF decreasing, with rate of mental illnesses increasing",
-        card_path: "ufmentalhealth.jpg", 
-        card_caption: "Patricia Pascual // Alligator staff",
-        author_one: "Jinelle Vazquez",
-        author_two: "Kylie Williams",
-        contact_one: "Contact Jinelle Vazquez and Kylie Williams at jvazquez@alligator.org and kyliewilliams@alligator.org. Follow them on Twitter @vazquezjinelle and @KylieWilliams99.",
-        contact_two: "",
-        about_one: "Jinelle Vazquez is a senior at UF pursuing a major in Public Health with a minor in Indigenous Studies. They currently report for the enterprise desk covering health. In their free time, they enjoy hiking, photography and making art.",
-        about_two: "Kylie Williams is a second-year journalism major and the Fall 2023 environmental enterprise reporter. Outside of the newsroom, she can be found baking or watching reality TV.",
-        date: "", // Leave blank
-        desc: "Where UF deviates from national and statewide trends is in students’ belief that the university prioritizes their health and wellbeing. Only about 36% of UF students surveyed in 2022 believed their health and wellbeing are a priority for their university, nearly a 15 percentage point decrease from 2020, according to NCHA data. Overall, UF students experienced a post-COVID-19 spike in mental illnesses such as anxiety and depression.",
-        body: "<p>Julianna Cicantelli describes herself as being &ldquo;battered and bruised&rdquo; since transferring from Valencia College to UF in Fall 2021.</p><p>The 22-year-old UF business administration senior was diagnosed with bipolar 1 disorder when she was 15. The disorder is defined by manic episodes that last for at least seven days and depressive episodes that typically last at least two weeks.</p><p>During her first semester at UF, Ciccantelli said she went to the infirmary for COVID-19-like symptoms. She informed the providers of her sensitivity to antihistamines due to her bipolar disorder.&nbsp;</p><p>&ldquo;They wrote it off as, &lsquo;You&rsquo;ll be OK, just continue to monitor your condition and the effects of [the prescribed medications],&rsquo;&rdquo; Ciccantelli said.</p><p>Ciccantelli was not aware at the time that she had been prescribed antihistamines. It wasn't until two weeks later when she returned home that her parents recognized her ongoing manic episode, she said.</p><p>&ldquo;All my life I was told to trust the doctors in charge because they knew better,&rdquo; Ciccantelli said. &ldquo;All it would have taken was a simple Google search on their end for them to have known the disastrous effects of the medications they prescribed to a young transfer Gator.&rdquo;</p><p>Between 2020 and 2022, the percentage of students surveyed at UF who reported being previously diagnosed with anxiety rose 40%. Similarly, the rate of ADHD increased 81%, and the rate of depression rose 43%. These increases in UF students&rsquo; mental health diagnoses align with <a href='https://www.acha.org/NCHA/ACHA-NCHA_Data/Publications_and_Reports/NCHA/Data/Reports_ACHA-NCHAIII.aspx'>national and statewide trends.</a></p><p>Where UF deviates from national and statewide trends is in students&rsquo; belief that the university prioritizes their health and wellbeing. Only about 36% of UF students surveyed in 2022 believed their health and wellbeing are a priority for their university, nearly a 15 percentage point decrease from 2020, according to NCHA data. Overall, UF students experienced a post-COVID-19 spike in mental illnesses such as anxiety and depression.</p><p>Experts attribute the surge to multiple causes, such as the pandemic, social media and changing societal norms. Alternatively, students appear to have less faith in the university and its ability to help them in their mental health struggles &mdash; especially given UF&rsquo;s culture around high academic achievement.&nbsp;</p><p>Since Fall 2021, Ciccantelli has been hospitalized three times for severe symptoms of her bipolar disorder. However, she has chosen to seek care from healthcare professionals in her hometown of Orlando instead of UF&rsquo;s mental health services.</p><p>&ldquo;I am glad I have accommodations in place [at UF] to get extra time for assignments and exams, but that&rsquo;s as far it goes,&rdquo; she said. &ldquo;I [feel] safer trusting my people at home.&rdquo;</p><p><strong>COVID-19 consequences&nbsp;</strong></p><p>UF Spokesperson Cynthia Roldan said although the long-term consequences of the global pandemic on mental health will continue to be studied, UF is committed to building a community where every Gator knows they&rsquo;re valued and respected.</p><p>Roldan listed UF resources such as 11 additional team members at the Counseling and Wellness Center; increased student-to-staff ratio; increased funding for the CWC&rsquo;s Consultation and Referral Team and the launch of Whole Gator, an application that connects the UF community with resources.</p><p>&ldquo;Even when we&rsquo;re not in the middle of a pandemic, college is a time for growth and change,&rdquo; she said. &ldquo;We want every Gator to have the tools they need to succeed.&rdquo;</p><iframe src='https://flo.uri.sh/visualisation/15898860/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height: 30rem;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><p>Lisa Wolcott, a Gainesville clinical therapist, said the increase in reported mental illness could be due to COVID-19. As the founder of Wolcott Counseling and Wellness, she has worked in mental health care for over two decades.&nbsp;</p><p>Since 2020, Wolcott and other therapists in her practice have noticed an influx of patients experiencing symptoms of depression, anxiety and OCD. Students who reported symptoms described feeling isolated due to the pandemic during high school or college, Wolcott said.&nbsp;</p><p>&ldquo;You&rsquo;re cut off at a time when you&rsquo;re supposed to be learning how to be social,&rdquo; she added.&nbsp;</p><p><strong>Decreasing stigma and college transition</strong></p><p>The increased normalization of mental health could also be a reason behind current trends, Jenny Banks, another therapist at Wolcott Counseling and Wellness, said.&nbsp;</p><p>&ldquo;A lot of patients come in with a curiosity now that there&rsquo;s definitely more of an open conversation about it,&rdquo; Banks said.&nbsp;</p><p>Banks has also seen what she refers to as &ldquo;TikTok self-diagnosis.&rdquo; As content surrounding mental health becomes more prevalent online, she said, patients relate it to their own personal experiences. This often leads them to seek out professional help, believing they have a specific mental illness.</p><p>That curiosity has led to an increase in diagnoses, mental health counselor Donielle Englert said. Englert, a counselor at Lucent Collaborative Services in Gainesville, sees many college-aged patients &mdash; particularly those with ADHD.&nbsp;</p><p>For many people, Englert said, the catalyst for mental illness symptoms is starting college. Attending college is a transitional time, she added and can introduce many stressors that didn&rsquo;t previously exist in a student&rsquo;s life.</p><p>Englert didn&rsquo;t disclose whether this has also led to an increase in prescription medications. In her counseling sessions, Englert said she helps patients find treatments for mental illness based on their individual needs. This can include medications, but alternatives are therapy, behavioral interventions or other methods.&nbsp;</p><p>&ldquo;It&rsquo;s just important if [patients] have questions, they want to explore mental health, to feel comfortable doing that,&rdquo; Englert added.&nbsp;</p><p><strong>Student experiences</strong></p><p>Lola Bautista-Bernard, a 20-year-old UF biology senior, attributes the decreased rate of students&rsquo; perceived well-being at the university to two things: the rigorous academic environment and the culture among professors.</p><p>Bautista-Bernard was diagnosed at UF last year with major depressive disorder, a mood disorder that causes a persistent feeling of sadness and loss of interest for at least two weeks. She was also diagnosed with ADHD and anxiety in 2021.</p><p>&ldquo;I feel like [at UF they] totally ignore the deeper [issues],&rdquo; she said. &ldquo;They don&rsquo;t want to talk about it because it&rsquo;s not an environment that&rsquo;s meant for that and that&rsquo;s just reflected in our student government,&rdquo; Bautista-Bernard said.</p><p>Bautista-Bernard said the UF Student Government focuses its mental health events on time and stress management, often ignoring the deeper issues students with mental health disorders like ADHD deal with.&nbsp;</p><p>Bautista-Bernard also said professors teaching STEM courses often intentionally make their classes more challenging to weed out students. In large classes, professors are unconcerned if half their students fail an exam, she added.</p><p>&ldquo;If I were to go to a professor and say something about my mental health, most likely the response would be &lsquo;OK, but everybody has these problems,&rsquo;&rdquo; she said. &ldquo;&lsquo;Everybody has these stresses and everyone else is fine.&rsquo;&rdquo;</p><p>Hanna Barbaree, a 20-year-old UF plant science sophomore, was placed on Zoloft and Ativan in August for major depressive disorder, anxiety and OCD.&nbsp;</p><p>&ldquo;I was almost incapable of functioning as a human being &hellip; I would not be able to sit down and begin to process the stressful assignments that I needed to get done,&rdquo; they said.</p><p>Barbaree said they have struggled with what they didn&rsquo;t know at the time were OCD flare-ups since coming to Gainesville as a PaCE student in Fall 2021.&nbsp;</p><p>Some of the symptoms Barbaree encountered at the time were intrusive thoughts, cycles of anxiety and perfectionism that interfered with their ability to complete tasks. This led to their placement on academic probation in Fall 2022 and medical withdrawal from the Spring 2023 semester, they added.</p><p>Through the process of the medical withdrawal, Barbaree said they had to open up and sob on Zoom calls with administrators. They felt as if they had to exploit their emotions to show the depth of the issues they were dealing with.</p><p>&ldquo;I wish I didn&rsquo;t have to reach that point in order to receive the help I needed,&rdquo; they said.</p><p>Barbaree has also begun to consider an ADHD diagnosis for their difficulty concentrating and excessive overthinking. Although Barbaree was recommended to the CWC for an ADHD diagnosis assessment, they shared they are hesitant to make an appointment due to the student-to-staff ratio.&nbsp;</p><p>&ldquo;I don&rsquo;t really want to throw my name in the hat,&rdquo; they said. &ldquo;I don&rsquo;t really want to get lost in there and I&rsquo;d rather go somewhere like a smaller place [where] they might have more attention for more specified issues.&rdquo;&nbsp;</p><p><em>Contact Jinelle Vazquez and Kylie Williams at jvazquez@alligator.org and kyliewilliams@alligator.org. Follow them on Twitter @vazquezjinelle and @KylieWilliams99.</em></p>"
+        slug: "latin-dance",
+        headline_en: "Saving salsa: Gainesville community fights to keep free salsa classes",
+        headline_es: "",
+        subtitle_en: "A city proposal could threaten weekly classes",
+        subtitle_es: "",
+        card_path: "latin-dance.jpg", 
+        author_one: "Carlos Alemany",
+        translator: "",
+        author_two: "",
+        contact_one_en: "Contact Carlos Alemany at calemany@alligator.org. Follow him on X @close_alemany",
+        contact_two_en: "",
+        contact_one_es: "",
+        contact_two_es: "",
+        about_one_en: "",
+        about_two_en: "",
+        about_one_es: "",
+        about_two_es: "",
+        date: "", 
+        desc_en: "",
+        desc_es: "",
+        body_en: "<p>In the heart of downtown Gainesville, a vibrant community gathers each week to connect through the rhythm of salsa to dance the night away. </p><p>Latin dance is a cornerstone of Gainesville's cultural landscape, drawing festive residents and visitors alike to the downtown area.  </p><p>However, a proposal to open a street for parking has many concerned for the future of the cherished tradition.</p><p>Since January 2021, The Gator Salsa Club has hosted weekly outdoor classes and open dancing sessions in partnership with The Bull pub in downtown Gainesville. But, a proposal to open the street in front of The Bull could bring the weekly classes to a halt.</p><p>Salil Bavdekar, the organizer of Salsa in the Streets, said the proposal could affect the current pedestrian-friendly setup.</p><p>\"If it's an open street, we can't have our classes there, we can't have dancing there, in which case we'd probably end up moving back to campus,” Bavdekar said. “So basically, all the benefits we had in the last three or four years, and all the benefits the city had of having this free community event being run for them for the last three years, would just disappear.”</p><p>The Downtown Advisory Board is set to oversee proposals for opening the streets to increase parking spaces, a move that some believe could benefit businesses by making them more accessible to patrons. </p><p>Jacob Larson, the owner of The Bull, said opening up parking could benefit businesses by making them more accessible to patrons, but it could also detract from the community and cultural activities that take place in pedestrian areas. </p><p>“It brings people to downtown, and then there's a centripetal effect where it spins out and benefits other businesses as well,\" he said.</p><p>Larson said having a free, accessible area where people can enjoy activities like salsa dancing can foster social connections, cultural exchange and a sense of belonging.</p><p>\"A pedestrian-centered, closed street is an integral part of a flourishing downtown ecosystem,” Larson said. “It is a catalyst for arts, culture, history and collision space for people that make up the entire community.\"</p><p>For many, salsa nights are more than just an evening of dance — they are a lifeline to culture, connection and community. </p><p>Yasier Figueroa, an 18-year-old Puerto Rican resident of Gainesville, said events offered by Salsa in the Streets bring back nostalgia.</p><p>\"I take dancing as a part of me being back home,” Figueroa said. “It's kind of like a nostalgic feeling.\"</p><p>He said these events amplify the visibility and voice of Gainesville’s Hispanic community, which he describes as a “silent minority.” </p><p>“It would bring out the true sense of who we are,” he said. “We're loud, we're vibrant, and it would showcase our culture.\"The City Commission will consider the Downtown Advisory Board's final decision following public comments scheduled August 6. </p><p>Reflecting on the street proposal, Figueroa emphasized its drawbacks.</p><p>\"It would be detrimental… because events like these bring different types of people together to do something beautiful,\" he said.</p>",
+        body_es: ""
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
+    }
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
     }
 
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
     }
 
     
@@ -67,102 +110,92 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
-// Article
-document.getElementById('acps').addEventListener('click', function() {
+document.getElementById('home-ink').addEventListener('click', function() {
     const myArticle = {
-        slug: "acps",
-        headline: "‘It's probably helping some people’: High school students react to Alachua County school mental health curriculum",
-        subtitle: "Some say resources are plenty, others say there are not enough",
-        card_path: "acps.jpg", // Leave blank
-        card_caption: "Evelyn Miguel // Alligator staff - Mazen Shehab, a senior at Buchholz High School,  stands in front of the school on Tuesday, Nov. 21, 2023.",
-        author_one: "Alissa Gary",
-        author_two: "",
-        contact_one: "Contact Alissa Gary at agary@alligator.org. Follow her on Twitter @AlissaGary1.",
-        contact_two: "",
-        about_one: "Alissa Gary is a second-year journalism major who's covering K-12 education for The Alligator. She has previously reported on student government and university administration.  Aside from writing, she likes to take care of her plants and play (and usually win) the New York Times sudoku puzzle.",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "The Florida Department of Education requires middle and high school students to attend at least five hours of mental health education a year as of 2019. Presentation topics vary from anxiety and depression to dating violence and substance abuse, and they come as slideshows, Zoom calls and videos.",
-        body: "<p>&ldquo;A chore,&rdquo; &ldquo;amazing&rdquo; and &ldquo;weird&rdquo; &mdash;&nbsp;all words Alachua County students used to describe the presentations about mental health they&rsquo;re required to watch in school.</p><p>The Florida Department of Education requires middle and high school students to attend at least <a href='https://www.fldoe.org/mental-health/'>five hours</a> of mental health education a year as of 2019. Presentation topics vary from anxiety and depression to dating violence and substance abuse, and they come as slideshows, Zoom calls and videos.</p><p>Alachua County Public Schools <a href='https://www.fldoe.org/core/fileparse.php/19980/urlt/2122-Alachua.pdf'>planned to spend</a> just under $2 million on mental health in the 2021-2022 school year. About $1.3 million of that budget was allocated toward school district employees, and $218,000 went to contractors and other outside collaborators.</p><p>While the students interviewed agreed the presentations were valuable to some, no student said the training provided personal substantial value.</p><p><strong>Lessons vary by school</strong></p><p>It&rsquo;s at each school&rsquo;s disclosure to decide how mental health hours are taught, said Kimberly Joy, a district mental health coordinator.</p><p>&ldquo;No matter what school you go to, you're gonna learn about this just as you would at your previous school,&rdquo; she said.</p><p>Data suggests teen mental health is plummeting by the year. About 29% of high school students nationwide said they experienced poor mental health within 30 days. Similarly, 42% said they felt consistent sadness or hopelessness within a year, up from 28% in 2011, according to a 2021 <a href='https://www.cdc.gov/healthyyouth/data/yrbs/pdf/YRBS_Data-Summary-Trends_Report2023_508.pdf'>survey</a> from the Center for Disease Control.</p><iframe src='https://flo.uri.sh/visualisation/15899669/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><p>Yet, across the board, students said attendance and participation fall on mental health days.&nbsp;</p><p>Guilherme Salmeron Binelli, an 18-year-old Eastside High School senior, said his school dedicates one period a day for a week to mental health education. During the last period of the day, teachers show mental health presentations instead of their regular classes.</p><p>&ldquo;It's more like a chore or like a day off than something to pay attention to,&rdquo; he said.</p><p>Most students do come to school on mental health week so they can attend the first five classes of the day, Binelli said. However, most treat their last class as a free period, and they tend to not pay attention, he said.</p><p>&ldquo;Not having content is pretty much the same as not having class at all,&rdquo; he said.</p><p>Joy said the district is aware of the attendance issue. To mitigate it, the district encourages schools to teach mental health strategies and participate in awareness campaigns throughout the year.</p><p><strong>More than mental health</strong></p><p>The baseline mental health education was updated in 2021 and 2022 to prevent drug abuse and teach life skills, largely at the push of Gov. Ron DeSantis&rsquo; wife, Casey DeSantis.&nbsp;</p><p>The five hours of mental health education were reworked and renamed to resiliency education, an all-encompassing term for teaching skills like empathy, responsibility and gratitude, in the policy&rsquo;s 2022 update.</p><p>In response to a request for comment, a spokesperson for the DeSantis administration sent a March press release.</p><p>&ldquo;As a mama of three little ones, I am proud that Florida is leading the nation in education, and I am thrilled to see how our efforts to reframe and rethink mental health will equip our students and future Floridians to be more resilient,&rdquo; Casey DeSantis said in the press release.</p><p>Anna Adams, a 17-year-old Professional Academy Magnet at Loften High School senior, said most of the information shown at Loften&rsquo;s annual mental health days is not interesting. The day fulfills the school&rsquo;s required five hours of training.</p><p>&ldquo;It's very basic knowledge,&rdquo; she said, adding she&rsquo;s heard some of the information in the past from outside therapists.</p><p>Loften separates students into groups by their last names during mental health days, regardless of their grade level, Adams said. As a result, students aren&rsquo;t paired with their friends, which she said makes the process even less appealing.</p><p>Presentations covered various topics, including drug abuse and a mother discussing her children's mental health struggles. However, some presentations were entirely unrelated to mental health.</p><p>Of the lessons she remembered, Adams said the most useful were those about identifying toxic relationships.</p><p>&ldquo;Those ones I think have really made some students realize that they're not in a healthy relationship,&rdquo; she said. &ldquo;So I think that one's pretty good.&rdquo;</p><p><strong>Beyond the presentations</strong></p><p>Mazen Shehab, a 17-year-old Buchholz High School senior, echoed the sentiment that students don&rsquo;t pay attention on mental health days.&nbsp;</p><p>&ldquo;I don't think there's a big focus on mental health with a lot of students I know,&rdquo; he said. &ldquo;They just enjoy having less time in school.&rdquo;</p><p>He had moved to Florida from Lebanon in 2022 before his junior year of high school. While he hasn&rsquo;t dealt with serious mental health issues since arriving at Buchholz, he said a more interactive approach &mdash;&nbsp;one where administrators reached out to students, instead of the other way around &mdash; might encourage students to be more open about their mental health struggles.</p><p>He also said some students, including himself, would turn to friends and family before teachers and counselors if they were struggling with mental health.</p><p>&ldquo;A lot of people in high school need a lot of help mentally,&rdquo; he said. &ldquo;And I don't think friends are the only way to do it.&rdquo;</p><p>Mental health is a topic close to the heart for 18-year-old Ava Avera, also a BHS senior, who organizes an annual 5k run dedicated to suicide prevention. Mental health is freely talked about at Buchholz, she said, and teachers are open to helping students.</p><p>&ldquo;Even if it's not like an official thing on paper, besides our mental health days, I think our faculty does a really great job of ensuring safety and just helping students feel heard,&rdquo; she said.</p><p>At least 80% of district employees are required by the <a href='https://www.fldoe.org/schools/k-12-public-schools/sss/ymhat.stml#:~:text=Effective%20November%2022%2C%202022%2C%20Rule,youth%20mental%20health%20awareness%20training.'>Florida Department of Education</a> to attend a 12-hour Youth Mental Health First Aid course. First implemented in the 2022-2023 school year, the certification teaches employees to deal with mental health crises and to be understanding with student concerns.</p><p>Avera appreciates that mental health days at Buchholz cover a variety of topics, she said. While not every presentation resonates perfectly with every student, she said it&rsquo;s still important to have them.</p><p>&ldquo;I definitely think that it helps some people at school, even though it may not help all,&rdquo; she said.</p><p><em>Contact Alissa Gary at</em> <a href='mailto:agary@alligator.org'><em>agary@alligator.org</em></a><em>. Follow her on Twitter @AlissaGary1.</em></p>"
+        slug: "home-ink",
+    headline_en: "A home made of ink and blood",
+    headline_es: "Un hogar de tinta y sangre",
+    subtitle_en: "",
+    subtitle_es: "",
+    card_path: "home-ink.jpg", 
+    author_one: "Valentina Sandoval",
+    author_two: "",
+    translator: "",
+    contact_one_en: "",
+    contact_two_en: "",
+    contact_one_es: "",
+    contact_two_es: "",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p>I’ve lost count of the times I have written about my home.</p><p> The words dance in nostalgia through a blank piece of paper as I desperately search my mind for the traces of my old life. I remember the smell of fresh coffee, my mom braiding my hair on a school morning and the perpetual sound of the news and the national anthem on TV at 6 a.m.</p><p>I was raised among social unrest, in a country with a turbulent history and a dictatorship that outdates me. Some of my earliest memories are of my grandmother yelling at the president on the TV for raising prices and filling the streets with crime. </p><p>But my relationship with journalism started as early as the day of my birth — I was born in Venezuela on June 27, the National Day of the Journalist. My parents, both engineers, wanted me to love the sciences and math like they did, but from an early age I was writing my secrets and stories on every piece of paper I could find around the house.</p><p>Although I was painfully aware of the situation in my country at a ripe 9 years of age, I hated the news. My grandmother would turn on the TV in my living room every morning while I was getting ready for school. Every local channel played the national anthem before their morning show and around noon, and more often than not, it was followed by a long-winded, neverending address from President Hugo Chavez.</p><p>All I really knew about politics back then was that we hated Chavez and that he was ruining our country. I didn’t actually start caring until one day in 2013. </p><p>I was at my weekly ballet classes in downtown Acarigua when my dance instructor got a call that sent the entire class into a frenzy: Hugo Chavez was dead. Almost like someone had flipped a switch, you could hear the noises outside the tiny classroom get louder and see the panic set in a dozen little girls who knew the social unrest this news would cause. My mom came running to pick me up from class, she told me to keep quiet and not ask anyone about politics and said we would stay home from school for a couple of days.</p><p>President from 1999 to 2013, Chavez led a dictatorship in Venezuela that changed the national constitution in his favor — giving almost unlimited power to the executive branch and allowing perpetual reelection — and caused years of high inflation, rising crime and complete censorship of the press and any opposition to his administration. </p><p>But this story is not about Hugo Chavez or his dictatorship’s successor Nicolas Maduro. This is about the anger that has settled in my blood from seeing a country go dark.</p><p>From my earliest memories of the news channels reporting on crucial political changes and being interrupted by a random presidential address, I saw the news cycle in Venezuela be slowed down, silenced and controlled. </p><p>Venezuela ranks 159th out of 180 countries in the Reporters Without Borders (RSF) Press Freedom Index. Since Maduro’s rise to power, RSF counted the disappearance of around 100 print newspapers and the closure of 200 radio stations. </p><p>Laws in place since 2010 do not permit the “questioning” of government officials, so multiple journalists have been sanctioned for speaking against the government and many news outlets have chosen to remain silent in fear of retaliation. Even newspapers that have turned to digital-only for their coverage are censored, since the state-controlled internet service provider CANTV blocks multiple websites including 35 independent news sites, according to Reuters Institute. </p><p>I didn’t like my country while I lived in it because it felt like a cage of corruption and silenced voices, but that dislike toward my heritage turned into a passion to be the difference I never got to see. I started looking at journalists I used to watch on TV when I was younger like Carla Angola, Gladys Rodriguez and Jose Vicente Antonetti, and I saw them leave the country in search of a place where they could broadcast the voices that were not being heard. </p><p>I started appreciating the place I am from not because of its crises or tragedies, but because of the undying resilience of its people. </p><p>My mom told me not long ago that my grandmother’s dream was to be a journalist, but she never had the courage to pursue such a dangerous and uncertain career. I may not remember the color of the walls in my childhood home and I may not go back to see it in many years, but I still carry that same anger and perseverance passed down through my lineage that makes me want to be a voice for the silenced.</p><p>It still hurts to write about my home. It hurts to think of saying goodbye to my mom at an airport at 13 years old, or the multiple Christmases spent over FaceTime with family spread all over the continent, or the fact that I still have not been able to visit my grandfather’s grave since he died in 2018. It hurts to think of thousands of people who are separated from their loved ones, not only by thousands of miles but by the deafening silence of government censorship.</p><p>It hurts but I’m willing to turn the blood into ink as many times as needed if it means not staying silent. So I thank my heritage for my career and for the courage to use my voice for those who cannot.</p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p>He perdido la cuenta de las veces que he escrito sobre mi hogar.</p><p>Las palabras bailan en nostalgia a través de un papel en blanco mientras busco desesperadamente las piezas de mi vida pasada en lo recóndito de mi mente. Recuerdo el olor del café, a mi mamá trenzando mi pelo en una mañana antes del colegio y el sonido perpetuo de las noticias y el himno nacional en la televisión a las 6 a.m.</p><p>Fui críada en medio de disturbios sociales, en un país con una historia turbulenta y una dictadura más vieja que yo. Entre mis primeros recuerdos está mi abuela gritandole al presidente en la televisión por subir los precios y llenar las calles de inseguridad.</p><p>Pero mi relación con el periodismo empezó tan pronto como salí del vientre — yo nací un 27 de junio en Venezuela, el Día Nacional del Periodista. Mis padres, ambos ingenieros, querían que amara las ciencias y la matemática tanto como ellos, pero desde una edad temprana me encontraba escribiendo historias y secretos en cada trozo de papel que encontraba en mi casa.</p><p>A pesar de estar consciente de la situación del país a tan solo los 9 años, siempre odié las noticias. Mi abuela prendía la televisión de la sala todas las mañanas mientras me arreglaba para ir al colegio. Cada canal de cable local tocaba el himno nacional antes su transmisión de la mañana y del mediodía, y después del posterior casi siempre empezaba una cadena nacional interminable del presidente Hugo Chavez.</p><p>Lo único que sabía de política a esa edad era que odiabamos a Chavez y que estaba destruyendo nuestro país. No fue sino hasta 2013 que me empezó a importar.</p><p>Mientras estaba en mi clase semanal de ballet en el centro de Acarigua, la profesora recibió la llamada que desató el caos: Hugo Chavez había fallecido. En cuestión de segundos el mundo alrededor cambió, el ruido de la calle afuera del pequeño salon de baile subió de volumen y el pánico alcanzó al grupo de niñas en tutús que sabían los disturbios que la noticia causaría. Mi mamá vino a buscarme tan rápido como pudo, me dijo que me quedara quieta y no le hablara a nadie sobre política y que nos quedaríamos unos días en la casa antes de volver al colegio.</p><p>Chavez, el presidente desde 1999 a 2013, lideró una dictadura en Venezuela que cambió la constitución nacional a su favor — dandole control casi ilimitado al poder ejecutivo y permitiendo su reelección perpetua — y causó años de hiperinflación, aumento en el crimen y la censura completa de la prensa y cualquier oposición a su gobierno.</p><p>Pero esta historia no es sobre Hugo Chavez o el sucesor de su dictadura, Nicolas Maduro. Esta historia es sobre la impotencia que se ha acumulado en mi sangre de ver un país ser olvidado.</p><p>Desde mis memorias más tempranas de ver canales de noticias reportando sobre temas importantes, solo para ser interrumpidos por una cadena nacional del presidente, vi el ciclo de noticias en Venezuela ser desacelerado, silenciado y controlado. </p><p>Venezuela ocupa el lugar 159 de 180 países en el Indice de Libertad de la Prensa de Reporteros Sin Fronteras. Desde el comienzo del gobierno de Maduro, RSF ha contado la desaparición de al menos 100 períodicos físicos y el cierre de 200 estaciones de radio. </p><p>Las leyes vigentes desde el 2010 no permiten “cuestionar” a oficiales del gobierno, lo cual ha llevado a múltiples periodistas sancionados por hablar en contra del gobierno y a muchos medios de comunicación a limitar su cobertura por miedo a problemas legales. Incluso los periódicos que han cambiado su formato a solo digital han sido censurados, pues el proveedor de internet CANTV es controlado por el estado y bloquea una gran cantidad de sitios web, entre ellos 35 sitios de noticias independientes, según Reuters Institute.</p><p>No me gustaba mi país por mucho tiempo porque se sentía como una jaula de corrupción y voces reprimidas, pero ese desagrado hacia mi herencia se ha convertido en una pasión por ser la diferencia que nunca llegué a ver. Empecé a recordar los periodistas que veía en televisión cuando era pequeña, como Carla Angola, Gladys Rodriguez y Jose Vicente Antonetti, y vi como se fueron del país en busca de un lugar donde pudieran compartir esas historias que no estaban siendo escuchadas.</p><p>Así fue que empecé a apreciar a mi lugar de origen no por sus crisis o tragedias, sino por la resiliencia imparable de su gente.</p><p>Mi mamá me dijo hace un tiempo que el sueño de mi abuela por un tiempo era ser periodista, pero que nunca tuvo el coraje de perseguir una carrera tan peligrosa e incierta. Puede que no recuerde el color de las paredes de mi vieja casa y puede que no vuelva a verla en muchos años, pero todavía llevo en mi linaje esa ira y perseverancia que me hace querer ser una voz para los silenciados.</p><p>Todavía me duele escribir sobre mi hogar. Me duele pensar en decirle adios a mi mamá en el aeropuerto a las 13 años, o en las múltiples navidades celebradas por videollamada con mi familia que vive en todo el continente, o en el hecho de que no he podido visitar la tumba de abuelo desde que falleció en 2018. Me duele pensar en las miles de personas separadas de sus seres queridos, no solo por miles de kilómetros sino también por el silencio ensordecedor de la censura del gobierno.</p><p>Me duele, pero estoy dispuesta a convertir la sangre en tinta tantas veces sea necesario si eso significa no callarme. Así que le doy las gracias a mi herencia por mi carrera y por el coraje de usar mi voz por todos los que no pueden.</p>"
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
+    }
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
     }
 
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
-    } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
-    }   
-
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
     }
     
-    window.location.hash = myArticle.slug;
 
-    myModal.show();
-}, false);
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
 
-// Article
-document.getElementById('sf-mhe').addEventListener('click', function() {
-    const myArticle = {
-        slug: "sf-mhe",
-        headline: "Nonresidential? No problem: Santa Fe College students find community, involvement",
-        subtitle: "SF offers a multitude of mental health services, student life organizations",
-        card_path: "sfmhe.jpg", // Leave blank
-        card_caption: "Adriel Bolocon // Alligator staff - Students play chess and interact with each other in the Oak Grove courtyard on campus at Santa Fe College on Sept. 13, 2023.",
-        author_one: "Bailey Diem",
-        author_two: "",
-        contact_one: "Contact Bailey Diem at bdiem@alligator.org. Follow her on Twitter @BaileyDiem.",
-        contact_two: "",
-        about_one: "Bailey Diem is a first-year journalism major at UF and is the Santa Fe Reporter for The Alligator for Fall 2023. When not reporting, Bailey can be found playing guitar or getting lost in a book.",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "Despite having no on-campus housing, SF students have access to a variety of student organizations to get involved on campus and make friends. The college also offers an assortment of mental health services for students to take advantage of, as it is one of five community colleges in the state to have a counseling center.",
-        body: "<p>Santa Fe College&rsquo;s nonresidential status and small student population haven&rsquo;t stopped it from building a lively community for students like Malachi Cirasuolo, an 18-year-old SF graphic design freshman.</p><p>While Cirasuolo has struggled with motivation during their first semester at SF, loneliness has never been a problem, they said.</p><p>By getting involved with several SF organizations themselves, including PRIDE Club, Art Club and Gaming Club, Cirasuolo said they&rsquo;ve been able to meet and connect with like-minded people, preventing them from feeling isolated.</p><p>&ldquo;Santa Fe has a lot of great clubs and events which I have been able to make friends through,&rdquo; Cirasuolo said. &ldquo;Everyone is super friendly, too, so it&rsquo;s easy to socialize.&rdquo;</p><p>Despite having no on-campus housing, SF students have access to a variety of student organizations to get involved on campus and make friends. The college also offers an assortment of mental health services for students to take advantage of, as it is one of five community colleges in the state to have a counseling center.</p><p>Community college students are more likely to lack the mental health resources offered at larger universities and are therefore less likely to get help for mental health problems, according to a 2021 <a href='https://ps.psychiatryonline.org/doi/10.1176/appi.ps.202000437'>American Psychiatric Association</a> survey.&nbsp;</p><p>While community college students generally reported poor mental health at the same rate as four-year university students, the same survey found &ldquo;the proportion of students reporting one or more mental health problems who did not use therapy or medication &hellip; was wider for community college students.&rdquo;</p><p>While SF retired its title of &lsquo;community college&rsquo; in 2008, it remains a nonresidential school with a population of around 14,000 full-time students &mdash; less than half of the undergraduate population of UF.</p><p>Lara Zwilling, the acting director of the SF Counseling Center, said SF is among a few community and state colleges in Florida able to provide students with counseling services.</p><p>A recent grant from the Florida Department of Health opens up new windows for SF, Zwilling said. The grant helps fund mental health first aid and crisis training for faculty members and student peer ambassadors.</p><p>SF also started a virtual wellness service in August available 24/7 for SF students known as <a href='https://www.sfcollege.edu/studentlife/student-wellness/timelycare/'>TimelyCare</a>.</p><p>&ldquo;You can speak to a medical doctor, or you can speak to a counselor, and it&rsquo;s all free just from being a student,&rdquo; Zwilling said. &ldquo;We&rsquo;re one of the only community colleges that offer that.&rdquo;</p><p>SF also hosts a variety of opportunities for students to get involved on campus, which might help students combat any feelings of isolation they might be experiencing, Zwilling said.</p><p>&ldquo;We do have a very robust student life program,&rdquo; she said. &ldquo;They really try to engage because&nbsp;</p><p>we know that a student&rsquo;s sense of belonging is what&rsquo;s going to keep them here.&rdquo;</p><p>Summer Zaffuto, an 18-year-old SF psychology freshman from Ponte Vedra, values her newfound independence. Still, starting at a new school with new people can be a big adjustment, she said.</p><p>&ldquo;When I was in high school, I was constantly surrounded by friends,&rdquo; Zaffuto said. &ldquo;I was also in the school&rsquo;s band program, so not having that big group of people has been kind of hard.&rdquo;&nbsp;</p><p>However, getting involved in student life at SF was easy, she said.</p><p>&ldquo;I joined a lot of clubs and am the secretary of the psychology club, which is fun,&rdquo; Zaffuto said.</p><p>Beyond experiencing the usual ups and downs of college life, Nathan De Los Reyes Diaz, a 23-year-old SF cybersecurity freshman, said he often feels extra isolated due to his deafness.&nbsp;</p><p>&ldquo;I would like to meet people, but sometimes I feel left out because I&rsquo;m deaf,&rdquo; he said. &ldquo;When everyone else is talking, I feel a little left out and lonely sometimes.&rdquo;</p><p>De Los Reyes Diaz often struggles with his mental health and said he felt lost when he started at SF.</p><p>&ldquo;In the beginning, I had a little bit of a rough time. I was completely alone,&rdquo; he said. &ldquo;I didn&rsquo;t know what to do.&rdquo;</p><p>One of his previous interpreters suggested he get involved with the ASL club at SF, De Los Reyes Diaz said.</p><p>&ldquo;I decided to go there,&rdquo; he said. &ldquo;That&rsquo;s helped a lot with socialization and making new friends.&rdquo;</p><p>For Izzy Scarpatti, a 19-year-old SF psychology sophomore, having fewer students at SF made it easier to build friendships. While she hasn&rsquo;t had time to get involved in clubs, she&rsquo;s met people through daily interactions, she said.</p><p>&ldquo;I&rsquo;m just a shy person in general, so usually I won&rsquo;t speak up, but a lot of people are very nice and outgoing,&rdquo; Scarpatti said. &ldquo;All the friends I&rsquo;ve made have usually talked to me first, which is really nice.&rdquo;</p><p>Scarpatti believes she would feel more isolated if she were attending a large university. The college&rsquo;s small class sizes have helped her connect with other students, she said.</p><p>&ldquo;I definitely like how small the classes are,&rdquo; Scarpatti said. &ldquo;I feel like it is much less intimidating and I have made a good amount of new friends from classes!&rdquo;</p><p>Scarpatti encourages students to get involved at SF if they&rsquo;re feeling lonely, she said.</p><p>&ldquo;[Do] not be scared to talk to people or join clubs like I was,&rdquo; she said. &ldquo;People are genuinely super nice and probably feeling similar.&rdquo;</p><p><br><em>Contact Bailey Diem at</em> <a href='mailto:bdiem@alligator.org'><em>bdiem@alligator.org</em></a><em>. Follow her on Twitter @BaileyDiem.</em></p>"
-    };
 
-    const parent = document.querySelector("#articleContainer");
-
-    
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
-
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
-    }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
-    parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
-
-parent.querySelector('#articleCardCaption').style.display = "block";
-
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
     }
 
     
@@ -174,104 +207,92 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
-// Article
-document.getElementById('psychology-mhe').addEventListener('click', function() {
+document.getElementById('children-book').addEventListener('click', function() {
     const myArticle = {
-        slug: "psychology-mhe",
-        headline: "Why study psychology?: UF program teaches students about mental health",
-        subtitle: "Students share their interests, career goals in the field",
-        card_path: "psychology.jpg", // Leave blank
-        card_caption: "Gabrielle Aulisio // Alligator staff - Anderson Finch, a graduate student in psychology at UF, stands next to the Cognition and Decision Modeling Laboratory on Tuesday, Nov. 21, 2023.",
-        author_one: "Megan Howard",
-        author_two: "",
-        contact_one: "Contact Megan Howard at mhoward@alligator.org. Follow her on Twitter @MeganMHxward.",
-        contact_two: "",
-        about_one: "Megan Howard is a second-year journalism major and the University General Assignment reporter. In her free time she enjoys reading and belting Taylor Swift songs.",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "Conversations around mental health continue to grow every day in media and classrooms. With these conversations and life experiences, students show interest in degrees and careers in psychology.",
-        body: "<p>After he received a diagnosis of generalized anxiety disorder, Tyler Favier realized mental health can also influence physical health.&nbsp;</p><p>&ldquo;I remember the first time I had a panic attack,&rdquo; he said. &ldquo;I thought I was straight up dying in AP U.S. History class.&rdquo;</p><p>Favier met with many doctors and specialists, but no one could figure out why he was experiencing physical symptoms like migraines and stomach issues.&nbsp;</p><p>&ldquo;That had me have this big realization of the importance of taking care of your mental health and that it could be psychologically related,&rdquo; he said.</p><p>Conversations around mental health continue to grow every day in media and classrooms. With these conversations and life experiences, students show interest in degrees and careers in psychology.</p><p>Favier is a 20-year-old UF psychology junior with a specialization in behavioral and cognitive neuroscience.</p><p>He started at UF with an associate&rsquo;s degree with an emphasis in psychology. Originally, he hoped to study neuroscience, but UF doesn&rsquo;t offer a neuroscience degree.&nbsp;</p><p>The UF psychology department offers three undergraduate tracks for students to pursue: general psychology, behavioral and cognitive neuroscience and behavioral analysis.&nbsp;</p><p>UF also offers a master&rsquo;s in psychology and developmental, neurobehavioral and cognitive sciences, behavioral analysis and social psychology doctorate degrees.&nbsp;</p><p>When Favier started taking more neuropsychology classes, his interests shifted to clinical psychology, which would allow him to study the brain-body connection and help patients with chronic illnesses.&nbsp;</p><p>&ldquo;I was thinking about how stress and anxiety can produce stabbing stomach pain or headaches and how our mental health impacts our physical functioning,&rdquo; he said. &ldquo;That&rsquo;s always been a really big interest for me.&rdquo;</p><p>With many diverse paths to pursue in psychology, students&rsquo; reasons and motivations differ by psychological specialty.</p><p><strong>Anderson Fitch and experimental psychology</strong></p><p>Anderson Fitch, 24, recently completed his master&rsquo;s in experimental psychology and is applying for his PhD candidacy at UF. Like many college students in undergrad, he found his passion by exploring options at his university.</p><p>Originally, he began his undergraduate studies at Kansas State University studying biology, in hopes of becoming a doctor. When it came time to choose a research lab, Fitch found himself drawn to Dr. Kimberly Kirkpatrick&rsquo;s psychology lab on impulsive decisions in rats.</p><p>&ldquo;It made me realize that this is something that I could see myself doing in the future,&rdquo; Fitch said. &ldquo;It&rsquo;s something that is really exciting for me. So that&rsquo;s how I found my path.&rdquo;</p><p>In the second semester of his junior year, Fitch switched his major to psychology. He then went on to apply for UF&rsquo;s graduate program, which puts students on track to obtain their PhD, he said.</p><p>Working with his adviser and principal research investigator Dr. Peter Kvam, Fitch continued to study cognitive processes through experiments on decision making.&nbsp;</p><p>One of their recent studies has participants play a spaceship game to understand how people make random, impulsive, consistent and thoughtful decisions.</p><p>&ldquo;We are trying to figure out, for a given scenario, what types of mechanisms are necessary to produce the behavior that we see,&rdquo; Fitch said.&nbsp;</p><p>The research uses mathematical modeling to understand what contributes to impulsive and consistent behavior.</p><p>&ldquo;We can characterize those different aspects [of behavior] and see which things we need to include in our model to try and understand the behavior,&rdquo; Fitch said.&nbsp;</p><p>Now, Fitch has his PhD and is considering psychology in academia or industrial data science. The industry side of psychology would give him better benefits, but the professor and research track would allow him to keep researching exciting topics in experimental psychology.&nbsp;</p><p>&ldquo;Being a professor is a little more fun,&rdquo; Fitch said. &ldquo;You get to do the things you like doing, but you&rsquo;re not compensated as well.&rdquo;</p><p><strong>Ellie Mitova and neuropsychology</strong></p><p>Ellie Mitova is a 21-year-old UF psychology senior with a behavioral and cognitive neuroscience specialization.&nbsp;</p><p>Her psychology interest started after taking AP Psychology in high school. She then took dual-enrollment psychology courses, which further ignited her interest.&nbsp;</p><p>&ldquo;I knew that psychology was something that interested me because I wanted to study human behavior,&rdquo; Mitova said.</p><p>After going through therapy and watching her friends struggle with mental health, Mitova realized psychology should be better advocated for in the social media age, she said.</p><p>&ldquo;Now especially with social media, social ideologies and perceptions that people need to fit into things, it has increased the necessity of mental health professions because there is increased depression, anxiety or stress,&rdquo; she said.</p><p>Mitova entered college studying psychology and the pre-med track with the intention of one day becoming a neurosurgeon.&nbsp;</p><p>&ldquo;Eventually, I figured out that track [pre-med] wasn&rsquo;t for me, so I started taking more psychology-oriented and neuroscience behavior classes,&rdquo; she said. &ldquo;I was able to finally figure out what career I wanted.&rdquo;</p><p>Now, she wants to obtain her master&rsquo;s and doctorate in neuropsychology, which combines behavior and neurological science.</p><p>&ldquo;It can focus on people with traumatic brain injuries or neurocognitive deficits or any type of disorder such as ADHD, Alzheimer&rsquo;s and schizophrenia,&rdquo; Mitova said.</p><p>On top of her studies, Mitova has worked for three psychology research labs and is the president of UF Psychology Club and the UF chapter of the international honor society in psychology, Psi Chi.&nbsp;</p><p>The clubs work with the Alachua County Crisis Center, bring in guest speakers and connect students with internships and research opportunities.</p><p><strong>Amy Dukeshire and media psychology</strong></p><p>Amy Dukeshire is a 20-year-old psychology and advertising junior. She applied to UF as a pre-med biology major but soon realized the medical route was not her path. Reflecting on her time in high school taking AP Psychology and her long-held interest in psychology, Dukeshire decided to switch majors.&nbsp;</p><p>&ldquo;I have always liked the idea of helping people and being there for people,&rdquo; she said.</p><p>Last Spring, Dukeshire added a second degree, advertising, because she didn&rsquo;t want to graduate early. When picking up a second major, she looked for a field that would complement her psychology background.&nbsp;</p><p>&ldquo;I do like the idea of integrating the two, whether it&rsquo;s through research or there&rsquo;s a field of study called media psychology, which I also think would be a perfect mix of the two [degrees],&rdquo; Dukeshire said.</p><p>Like many other psychology students hoping to pursue graduate school, Dukeshire busies her schedule with research labs and psychology clubs. She currently works in Dr. Colin Smith&rsquo;s attitudes and political cognitions lab studying implicit bias.</p><p>&ldquo;I do really like this one, and I have always had an interest in social psychology, which is what that&rsquo;s a part of,&rdquo; Dukeshire said.</p><p><strong>Rachel Wimer and general psychology</strong></p><p>Rachel Wimer, a 21-year-old UF general psychology senior, chose to study psychology because of how it influences everyone&rsquo;s life.&nbsp;</p><p>&ldquo;I feel as though it&rsquo;s very interdisciplinary,&rdquo; she said. &ldquo;It interacts with everything we do.&rdquo;</p><p>Upon graduation, Wimer will take a gap year to focus on research before applying to graduate school. Her time in a cognitive decline research lab and volunteer hours at UF Health Shands Hospital neuromedicine unit made her realize she wants to pursue a career in clinical psychology.</p><p>At Shands, Wimer helps create a clean environment for patients and supports patients by talking with them in their rooms.&nbsp;</p><p>&ldquo;You&rsquo;re allowed to sit and talk with them if they want company, and I think that helps in the psychology domain because you&rsquo;re getting to talk with people about their life or whatever they&rsquo;re going through,&rdquo; she said.</p><p><em>Contact Megan Howard at mhoward@alligator.org. Follow her on Twitter @MeganMHxward.</em></p>"
+        slug: "children-book",
+    headline_en: "Children’s book project captures untold Hispanic immigration stories",
+    headline_es: "Proyecto de libros para niños capta historias nunca contadas de la inmigración hispana",
+    subtitle_en: "UF students create narratives to connect with Hispanic, immigrant heritage ",
+    subtitle_es: "Estudiantes de la UF crean narrativas para conectar con el patrimonio hispano e inmigrante",
+    card_path: "children-book.jpg", 
+    author_one: "Grace McClung",
+    author_two: "",
+    translator: "Avery Parker",
+    contact_one_en: "Contact Grace McClung at gmcclung@alligator.org. Follow her on X @gracenmclung",
+    contact_two_en: "",
+    contact_one_es: "Contacta a Grace McClung por gmcclung@alligator.org. Síguela en X @gracenmclung. Traducido por Avery Parker. Contáctalo por aparker@alligator.org. Síguelo en X @AveryParke98398.",
+    contact_two_es: "",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p>Instead of reading about Jack and Annie’s travels to distant lands in a magic treehouse, children might soon be reading about Jose’s journey from the mountains of Mexico to a Texas ranch or Ericka’s move from the Peruvian coast to the cold winds of Ohio. </p><p>In an immigration class taught by UF assistant professor Rafael Solórzano, students created children’s picture books based on immigration oral histories they conducted themselves, capturing the experience of people like Jose and Ericka in short, kid-friendly stories. </p><p>The class — Latinx Migration, Refugees and Citizenship in the U.S. — previously included an oral history paper at the end of the semester, but Solórzano wanted to do something different this year after drawing inspiration from a bilingual storytelling project at local Gainesville elementary schools. </p><p>“We're telling the story of how migrants arrived to the U.S. and where they settled,” Solórzano said. “I think that’s powerful because… if you go to a bookstore, they’re most likely going to be about little children growing up in New York and all these traditional gateway cities.”</p><p>Both undergraduate and graduate students completed the project over half a semester. Students were tasked with condensing a one- to two-hour oral history into 1,000 words accompanied by artwork they did themselves or used AI to do. Most wrote about their friends and family, but several students wrote about themselves.</p><p>Solórzano said his students enjoyed the project, even becoming emotional as they filled gaps in their family history and connected with their Hispanic heritage. </p><p>“This is new scholarship,” Solórzano said. “[The students] are beginning to understand their human dignity.”</p><p>Ximena Villegas, a 21-year-old Mexican American UF public relations senior, said the project provided a space for Hispanic voices in a place where their stories often go untold. </p><p>“There really isn’t a lot of Hispanic voices in children's literature, especially on topics like immigration and migration stories,” Villegas said. “[This project] gave an opportunity to expose children to it but in a positive light.”</p><p>Villegas wrote about her grandfather Jose Villegas who traveled from Guanajuato, Mexico, to Texas in 1966. She said the project helped her learn more about her grandfather’s struggles and become closer to her family.</p><p>“This was a creative approach to helping younger generations understand the experiences and sacrifices that others in their life may have made,” Villegas said. </p><p>She also wrote in an email the project allowed her to “gain a more humanized insight into a community that is sometimes perceived in a negative way.” </p><p>Sonia San Juan, a doctoral student from Spain, wrote about Ericka Ghersi, president of Gainesville’s Latina Women’s League. Ghersi fled the violence of Peru and landed in Ohio where she was shocked by a new culture and isolated by the lack of knowledge people had about her home country.</p><p>San Juan, who came to the U.S. when she was 17, said Ghersi’s story mirrored some of her own experiences. She said the project’s concept was like “self-help literature for kids,” showing young immigrants trying to adjust to a new culture they’re not alone. </p><p>San Juan said the project could also be beneficial for non-immigrant children.</p><p>“The sooner you get to introduce new ideas, new thoughts to other people, the better,” she said. “It's important to reach to that community, to the younger Spanish speakers and English speakers that might be interested in what other people are doing.”</p><p>Gemma Garcia-Gijon, a 20-year-old UF political science and sociology senior, said writing about her father’s experience migrating from Oaxaca, Mexico, to Florida helped her feel closer to her Hispanic culture. She said Hispanic people born and raised in the U.S. like her often struggle with feeling authentically Hispanic, but this project helped her identify parts of her Hispanic culture in her American life she didn’t notice before. </p><p>“There was still aspects that I grew up around that, in a way, are very similar to the way my cousins in Mexico grew up,” Garcia-Gijon said. “That was really nice to see.”</p><p>Garcia-Gijon said the project showed how important representation is, especially for children.</p><p>As a Hispanic person growing up in the U.S., she said “knowing the struggles and the amount of things [our ancestors] had to do to adapt to a new country” is important to learn about. </p><p>While Hispanic voices receive better representation now, she said there’s still work to be done.</p><p> “The immigrant experience still continues to be a bit stigmatized,” she said. </p><p>Other professors across the country have expressed interest in replicating the children’s book project, and two people have shown interest in publishing the stories, according to Rafael Solórzano, the professor leading the project. </p><p>He said he’s planning on revising the stories and editing them into a volume of children’s books. </p><p>An event will be hosted in September where students from the class will read the books to children. The event is still in the planning stage, and no date has been set, Solórzano said.</p><p>If plans for the event move forward, Garcia-Gijon said the project will be doing good work even at just the local level. </p><p>“Gainesville has a lot of young Hispanic minds that need nourishment. They need to know that their experiences and their families' experiences are valid and should be learned about,” she said. “It's never too late to embrace that part of our identity.</p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p> </p>"
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
     }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
+    }
+
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
     }
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
-    }
-
-    
-
-    
-
-    window.location.hash = myArticle.slug;
-
-    myModal.show();
-}, false);
-
-// Article
-document.getElementById('perception').addEventListener('click', function() {
-    const myArticle = {
-        slug: "perception",
-        headline: "Perception vs. reality: Drugs, alcohol and sex ",
-        subtitle: "Do college students fit the ‘party’ reputation?",
-        card_path: "perception.jpg", // Leave blank
-        card_caption: "Aubrey Bocalan // Alligator staff",
-        author_one: "Bea Lunardini",
-        author_two: "",
-        contact_one: "Contact Bea Lunardini at blunardi@alligator.org. Follow her on Twitter @bealunardini.",
-        contact_two: "",
-        about_one: "",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "In the barrage of media depicting college life, it seems to revolve around trying anything and everything, but does first-hand information from college students really support that? A survey of UF students for the spring 2022 National College Health Assessment shows it’s complicated.",
-        body: "<p>College movies and shows say a student&rsquo;s four years of university go by in a blur of keggers, frat parties and random hookups. Nostalgic stories from older family members center the drinks snuck from bars that didn&rsquo;t check IDs, and some alumni can recite the list of specials and prices from their local bar more accurately than their course schedule.&nbsp;</p><p>In the barrage of media depicting college life, it seems to revolve around trying anything and everything, but does first-hand information from college students really support that? A survey of UF students for the <a href='https://www.acha.org/documents/ncha/NCHA-III_SPRING_2022_UNDERGRAD_REFERENCE_GROUP_EXECUTIVE_SUMMARY.pdf'>spring 2022 National College Health Assessment</a> shows it&rsquo;s complicated.&nbsp;</p><p>Part of the reason why results are complicated is because the same activity can have vastly different results on each person doing it. It&rsquo;s impossible to say the things measured in the NCHA are entirely negative or positive, but it is true that they can have significant effects on mental health.&nbsp;</p><p>Alcohol and many drugs are depressants, which can <a href='https://pubmed.ncbi.nlm.nih.gov/8626352/'>cause anxiety and depression</a> symptoms and exacerbate existing feelings. Casual sex, defined as sex outside of a relationship in a <a href='https://www.tandfonline.com/doi/full/10.1080/00224499.2020.1821163'>2020 study</a>, had mixed results on mental health, boosting the self-esteem of some and tanking that of others.&nbsp;</p><p>The survey separates data from UF students by gender, with three categories represented: cisgender men, cisgender women and trans/gender non-conforming individuals. Data was collected anonymously from students.&nbsp;</p><p><strong>Drugs &amp; Alcohol&nbsp;</strong></p><p>Florida is one of 38 states to allow the use of medical marijuana, and the Gainesville area has historically been a hub for the drug&rsquo;s use, both legally and illegally. However, most UF students haven&rsquo;t dipped their toe into this aspect of Gainesville&rsquo;s culture, according to data collected by the NCHA.</p><p>More than half of UF students said they have never used marijuana or cannabis. Just over 13% of students last used marijuana more than a year ago, and just under 15% last used within the two weeks prior to the survey.&nbsp;</p><p>The NCHA also collected data on alcohol, noting the frequency and quantity of drinks consumed. Students were asked when the last time they drank alcohol was, and the two most common answers were never and within the last two weeks. Over 55% of respondents said they had consumed alcohol within the last two weeks, while just under 20% said they had never had alcohol.&nbsp;</p><p>Jess Waters is a 21-year-old UF family, youth and community sciences junior who also works as a student assistant with GatorWell Health Promotion Services. She has spent the last two years developing alcohol outreach and awareness programs for students.&nbsp;</p><p>&ldquo;Based on the work I&rsquo;ve done with GatorWell, this is a little surprising, but mostly makes sense,&rdquo; she said. &ldquo;We do a lot of outreach events to educate people about their alcohol use and a decent number of people walk by and say that they don&rsquo;t drink, so anecdotally, 20% sounds about right for non-drinkers.&rdquo;&nbsp;</p><p>Outside of her experience on the job, however, Waters wasn&rsquo;t expecting to see the numbers.&nbsp;</p><p>&ldquo;As a student, I&rsquo;m shocked,&rdquo; she said. &ldquo;I&rsquo;ve never been to a party where there wasn&rsquo;t enough alcohol for double the people there, and everybody seemed to be drinking.&rdquo;&nbsp;</p><p>Just because students seem to be drinking doesn&rsquo;t mean they are, though. Fatima Muhammad, a 20-year-old political science sophomore, is the one of five UF students who has never had an alcoholic drink.&nbsp;</p><p>&ldquo;I am a devout Muslim,&rdquo; she said, &ldquo;and my faith is one of the most important things in my life. I don&rsquo;t drink at all and I don&rsquo;t plan to.&rdquo;&nbsp;</p><p>Muhammad felt a bit out of place when she first came to UF, not knowing how to navigate an environment that seemed completely foreign.&nbsp;</p><p>&ldquo;It took a while to feel comfortable at frat parties,&rdquo; she said. &ldquo;It can be awkward to be the only one without a drink in your hand, and I felt like there was a big spotlight on me showing everyone that I wasn&rsquo;t like them.&rdquo;&nbsp;</p><p>Eventually, she found solutions that made her feel much better when it came to drinking.&nbsp;</p><p>&ldquo;I don&rsquo;t worry as much anymore about what people think because I know they don&rsquo;t notice someone not drinking,&rdquo; she said. &ldquo;I also like things like Liquid Death (a can of water that mimics the look of a beer can) because they make me feel like I&rsquo;m more immersed in the party experience without having to compromise my values.&rdquo;&nbsp;</p><p>The data on the quantity of drinks consumed contradicts the idea that college students drink large amounts frequently. Nearly 80% of students surveyed said that they had four or fewer drinks the last time they drank in a social setting. Almost 8% said they had seven or more, and less than 15% had five or six.&nbsp;</p><p>The mean number of drinks consumed on a night out for all students surveyed was three, with cisgender men averaging 3.6 drinks and cisgender women and gender non-conforming people averaging 2.7 and 2.8, respectively.&nbsp;</p><iframe src='https://flo.uri.sh/visualisation/15899472/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><p><strong>Sex</strong></p><p>The survey also asked questions about sexual behavior, including the frequency with which students engaged in different kinds of sexual activity.&nbsp;</p><p>Within the two weeks leading up to the survey, students had engaged in vaginal sex the most frequently, followed closely by oral sex. Anal sex was the least common activity measured, with over 80% of students saying that they had never engaged in it.&nbsp;</p><p>Over 70% of students said they had one sexual partner in the last 12 months. About 11% said two, 6% said three and another 11% indicated that they had had four or more sexual partners in the last year.&nbsp;</p><p>Students were also asked about their use of protection, like condoms or dental dams. Almost 5% of students said that they used protection &ldquo;most of the time&rdquo; or &ldquo;always&rdquo; when they had oral sex, while 43% said so for vaginal sex and 18% said so for anal sex.&nbsp;</p><p>Transgender and gender non-conforming students used protection at rates higher than the average for all three forms of sex. Transgender non-conforming students indicated using protection during oral sex at twice the rate of the average and protection during anal sex at triple the average rate.&nbsp;</p><p>Ryan Gall, a UF College of Medicine doctor and professor, believes the difference in protection rates among gender non-conforming individuals is due to increased education regarding sex.&nbsp;</p><p>&ldquo;Although sex ed tends to be lacking in middle and high school, UF has a lot of resources specifically geared toward the LGBTQ+ community,&rdquo; Gall said. &ldquo;There&rsquo;s inclusive, free protection in the Rainbow Room at the Reitz and a lot of information about sex that is meant to target overlooked population demographics.&rdquo;</p><p>Although there are many options for LGBTQ+ students to become more aware about safe sex practices, increased rates of protection also come from a history of fear.&nbsp;</p><p>&ldquo;A lot of queer people find themselves afraid of sex because the AIDS epidemic hangs over their heads,&rdquo; Gall said. &ldquo;They protect themselves because they don&rsquo;t want to be called irresponsible or lumped in with all of the LGBTQ+ people who have died.&rdquo;</p><p>Students are using drugs, drinking and having sex at rates that may surprise people, but what&rsquo;s not surprising is the toll on their mental health these activities can have. From alcoholic depressants to the stimulant effect of casual sex and everything in between, many UF students may find their mental health at the mercy of their surroundings.&nbsp;</p><p><em>Contact Bea Lunardini at</em> <a href='mailto:blunardi@alligator.org'><em>blunardi@alligator.org</em></a><em>. Follow her on Twitter @bealunardini.</em></p>"
-    };
-
-    const parent = document.querySelector("#articleContainer");
-
-    
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
-
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
-    }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
-    parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
-
-parent.querySelector('#articleCardCaption').style.display = "block";
-
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
     }
 
     
@@ -283,50 +304,92 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
-// Article
-document.getElementById('baking-club').addEventListener('click', function() {
+document.getElementById('mary-cruz').addEventListener('click', function() {
     const myArticle = {
-        slug: "baking-club",
-        headline: "UF students connect through cookies, cakes and critical life lessons",
-        subtitle: "Student organization Baking4Wellness promotes mental health education for members",
-        card_path: "bakingclub.jpg", // Leave blank
-        card_caption: "Courtesy to The Alligator - Baking4Wellness members bake cookies with UF community service club Gator Diplomats at La Casita Thursday, Nov. 16, 2023.",
-        author_one: "Jared Teitel",
-        author_two: "",
-        contact_one: "Contact Jared Teitel at jteitel@alligator.org. Follow him on Twitter @jaredteitel.",
-        contact_two: "",
-        about_one: "Jared Teitel is a third-year journalism major, and this is his second semester as an Avenue reporter. In his free time, he enjoys running, shopping, and drinking coffee. ",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "Baking4Wellness started with one young woman’s dream to bring her two most important values to her college campus: sweet treats and strength.",
-        body: "<p>Dec. 21, at 6:25 p.m., Reddit user Ledgelaa made an ambitious post to the UF subreddit.&nbsp;</p><p>&ldquo;Baking4Wellness is a rising organization at UF that is working towards promoting mental and general health awareness through the art of baking,&rdquo; she wrote.&nbsp;</p><p>Now, this multifunctional student organization with dozens of members nears its one-year anniversary at UF. Baking4Wellness started with one young woman&rsquo;s dream to bring her two most important values to her college campus: sweet treats and strength.&nbsp;</p><p>Last winter, Lejla Cancar, a 21-year-old UF health science junior, was itching to involve herself in any student organization that met her interests. But browsing web pages and scrolling through social media feeds led her to a dead end.&nbsp;</p><p>Her love for baking and interest in mental wellness pushed her to come up with a club of her own.&nbsp;</p><p>&ldquo;I figured it would be pretty unique to combine the two,&rdquo; she said, &ldquo;considering a lot of people use baking as stress relief.&rdquo;&nbsp;</p><p>After seeking approval from UF Student Government, Cancar was ready to turn her novel concept into a real-life endeavor. She took to social media such as Reddit and Instagram to advertise the creation of Baking4Wellness and encourage her fellow students, struggling with mental health or not, to join her in the kitchen.&nbsp;</p><p>&ldquo;I struggle with severe anxiety,&rdquo; she said about her motivation to begin the organization. &ldquo;I wanted to use [Baking4Wellness] as a way to share resources were out there.&rdquo;&nbsp;</p><p>As Cancar continued to call attention to the campus club, interest slowly started to spark and funding from the student government began to flow.&nbsp;</p><p>Ten months later, Cancar said Baking4Wellness has grown to roughly 50 members, including additional students outside the organization who attend baking events.&nbsp;</p><p>&ldquo;That&rsquo;s what we&rsquo;re here for,&rdquo; she said. &ldquo;You come when you need it.&rdquo;&nbsp;</p><p>For Cancar, creating the club came with the challenge of equally dividing the activity of baking and the focus on mental health awareness. As an organization that meets three to four times per semester, Baking4Wellness devotes some days to baking workshops while others to health seminars.&nbsp;</p><p>Topics of discussion at general body meetings have included eating disorders, fitness and wellness and misconceptions about disabilities, she said.&nbsp;</p><p>&ldquo;We try to do topics that are very relatable to other people,&rdquo; she said. &ldquo;That way, if they want to seek resources to help them, they can come to our GBMs.&rdquo;&nbsp;</p><p>On multiple occasions, the organization has hosted guest speakers with professional experience in such sensitive topics. In the spring, UF Police Department Victim Advocate Kelly Jackson discussed the issue of sexual violence with club members.&nbsp;</p><p>Jackson was invited by Baking4Wellness Vice President Emily Dong, a 19-year-old UF food science sophomore. After an experience with violent threats, Dong said, she reported the incident to the Office of Victim Services and subsequently met with Jackson.</p><p>&ldquo;When I was in crisis,&rdquo; she said, &ldquo;Kelly spent a whole morning helping me talk to an officer, communicate with my family&hellip;as well as take me to crisis counseling.&rdquo;&nbsp;</p><p>Dong joined Baking4Wellness in Spring with the intent of putting her love for cooking and baking into practice. Little could she predict that the organization would soon become the support system she needed.&nbsp;</p><p>&ldquo;I [am] drawn to the mission,&rdquo; she said. &ldquo;Take care of yourselves.&rdquo;&nbsp;</p><p>Mikayla Agbamuche, a 22-year-old UF natural resource conservation senior, is a baking chair of Baking4Wellness. For her, her discovery of the organization was an act of fate; having found the Reddit post while on the website looking for information about a course she was interested in.&nbsp;</p><p>&ldquo;Wow, this is something I&rsquo;d love to do: baking and teaching other people how to bake,&rdquo; she said, recalling her thoughts upon discovering Baking4Wellness.&nbsp;</p><p>As a baking chair, Agbamuche researches recipes and schedules baking workshops each semester. With a tight budget, she said, the type of dishes, equipment and spaces is limited for the group.&nbsp;</p><p>&ldquo;Sometimes we have to do scaled-back versions of recipes or no-bake recipes,&rdquo; she said, &ldquo;just so we can make sure it&rsquo;s accessible to everyone.&rdquo;&nbsp;</p><p>Without access to a fully equipped kitchen, the student bakers bring handheld mixers, toaster ovens, pots and portable air fryers into classrooms, apartments or houses. There, they have produced piping hot pastries, pumpkin snickerdoodle cookies and &ldquo;spooky brownies&rdquo; during the fall season.&nbsp;</p><p>But Baking4Wellness leaders want members to take away so much more than what comes out of the oven.&nbsp;</p><p>&ldquo;The baking aspect is we know you&rsquo;re dealing with all this stuff,&rdquo; Agbamuche said. &ldquo;We want you to have a healthy relationship with food&hellip;[and] the kitchen.&rdquo;&nbsp;</p><p>With one last general body meeting before the end of the semester, Baking4Wellness is determined to become a significant resource for students seeking help for their mental health by Spring.&nbsp;</p><p>&ldquo;We&rsquo;re still growing,&rdquo; Cancar said. &ldquo;I want people to know there are resources, and I want people to use them.&rdquo;&nbsp;</p><p><em>Contact Jared Teitel at jteitel@alligator.org. Follow him on Twitter @jaredteitel.</em></p>"
+        slug: "MaryCruz",
+    headline_en: "Painting a path to peace ",
+    headline_es: "",
+    subtitle_en: "24-year-old artist reflects on her harrowing journey to self-love and kinship",
+    subtitle_es: "",
+    card_path: ".jpg", 
+    author_one: "Noor Sukkar",
+    author_two: "",
+    translator: "",
+    contact_one_en: "Contact Noor Sukkar at nsukkar@alligator.org. Follow her on X @noorsukkarr.",
+    contact_two_en: "",
+    contact_one_es: "",
+    contact_two_es: "",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p> In the rural valleys of Mexico, the sun embraces the flora and fauna coloring the landscape. Young children breeze through trees as the wind carries the echoes of their laughter. Avocados cling on to the drooping branches as their youthful green tassels with a ripening wave of brown. </p><p>Sitting below with her younger cousins, MaryCruz Ruiz immortalizes the moment in her oil painting titled “The Return.”</p><p>“We just sat there together and we were all giggly, and it felt like I was back home,” Ruiz said.</p><p>At 24 years old, Ruiz has embarked on a two-month trip to Mexico to deepen the connection to her roots. However, the second-generation immigrant tackled years of trial and error prior to honing in on her artistic craft and rekindling familial relationships.</p><p>“There was never a point where I wasn’t drawing or making art, it was always present,” she said.</p><p>Yet there was a point she felt she had to stray away. </p><p>After graduating high school in Kissimmee, she drove to Pikes Peak State College, nearly 2,000 miles away from friends and family. While the longing for landscapes besides “concrete jungle, Disney and big corporate” played a role in the decision, guilt and a fear of failure pushed her as well. </p><p>She chose to study architectural design. </p><p> “While they [her family] work so hard for me to get here,” she said. “It can be disappointing for your family to want to go down a creative path, so I strayed away from that for a while.”</p><p>Working a full-time job and lacking self-care, the pressures of fulfilling someone else’s quota caught up. At 19, she felt she had one of the biggest existential crises of her life.</p><p>“It had just gotten so low that I could not allow myself to get any lower,” she said. “I didn’t know who I was.”</p><p>So she dropped out of college. </p><p>That decision is only one of many reroutes that kickstarted a spiritual awakening. She started working at the Cheyenne Mountain Zoo and made an active effort to completely reconstruct herself to be in balance with the planet, she said. </p><p>Over the next two years, the mountainous terrain and natural landscape of Colorado Springs inspired and fostered her growth in its art community.</p><p></p><p>“I just fell in love with our planet,” she said. “I was able to sow the seeds for learning how to love myself, building a deeper respect for myself, and learning how to value my mind, body and spirit.”</p><p>Between this newfound connection to agriculture and a longing to rekindle her relationship with her parents, she moved to Gainesville and began working at Frog Song Organics Farm at 21 years old. </p><p>“A lot of my pieces at the time were very emotional and very philosophical,” she said. “I was going through a lot of emotional turmoil. I just moved to a new place. I was feeling very alone.”</p><p>As the years passed, her early twenties were spent investing and adapting herself into different positions and work. In 2021, her path happened to cross that of David Coombs at a local music event, who she would ultimately start dating.</p><p>“I was personally going through some of the hardest times in my life… and here’s this vibrant soul telling me, ‘I see you have a dream. I see a path, tell me about it,’” Coombs said. “[She] just lit my soul on fire.”</p><p>Also new to Gainesville, Coombs left behind a 20-year construction career to pursue music. Ruiz’s genuine encouragement as a stranger omitted more faith than he had in himself. The artists bonded over many similarities and struggles.</p><p>“I could go on for hours about how proud of her I am and I just see her work really hard and never complain about it,” he said. “She’s just extremely resilient for the sake of her own betterment and for the sake of the impression she leaves on other people because she knows it's important.” </p><p>In her time living in Gainesville, Ruiz sold her art in pop-up markets like the How Bazar and displayed pieces in galleries. </p><p>“As soon as I started reaching out to How Bazar, reaching out to other pop ups, getting to know people and making art with people,” Ruiz said. “Gainesville just had open arms. I was not expecting that deep acceptance that I had received.”</p><p>Her doubts were dispelled by Gainesville’s embrace, and her presence lingered longer than the short period of time she lived there. Her high school best friend, Cristina Ortez, remembered a time she visited Ruiz in Gainesville for her birthday party, and said the experience showed how fondly Ruiz is received.</p><p>“We got to meet so many different people that she brought together,” Ortez said. “A lot of them didn’t know each other, but they all came here for Mary. It just shows how loved she is.”</p><p>Ortez met Ruiz at a private Catholic high school in Orlando. Ortez, whose artwork draws from her synesthesia, a condition which allows her to see color in emotions and sounds, related to Ruiz in many ways. For one, they often bonded over creating art together. But the Nicaraguan 26-year-old also shared in the struggles of being a minority.</p><p>“It was just this shared feeling of having to whitewash ourselves, and it wasn’t until I went off to college and she left school that we started growing into ourselves as people,” she said. “I can see that in her art. She’s using herself as a muse instead of hiding as we were made to feel.”</p><p>At the start of the summer, Ruiz returned to Haines City, Florida, where her Mexican parents live. She’s devoted her time to helping her family’s floral shop, Haines City Flowers.</p><p>“My parents and family just had insanely difficult lives — trying to grow out of poverty, become citizens, start their own business, support a family,” she said. “My life would have been so different if I had just been born a country away, and there’s a lot of gratitude for that.”</p><p>As she packs portable canvases and her oil paints to Mexico, she looks forward to taking a step outside of her routine life. With time as her most valuable resource, her pursuit of peace and growth strides on.</p><p>“I have the freedom to make art. I have the freedom to be queer. I can express myself without fear. That gives me a lot of fire in my soul to find my fullest potential creatively.” she said. “It almost feels like I am healing myself but also my ancestors and my past family members who haven’t had that opportunity.”</p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p> </p>"
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
     }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
+    }
+
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
     }
 
     
@@ -338,50 +401,92 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
-// Article
-document.getElementById('basketball').addEventListener('click', function() {
+document.getElementById('paloma-pena').addEventListener('click', function() {
     const myArticle = {
-        slug: "basketball",
-        headline: "‘I went through hell’: Florida women’s basketball guard overcame multiple injuries, mental exhaustion from old school",
-        subtitle: "NCAA data reveals surge in mental exhaustion, anxiety, depression among athletes post-2020 shutdown",
-        card_path: "basketball.jpg", // Leave blank
-        card_caption: "Ryan Friedenberg // Alligator staff - Florida guard Kenza Salgues celebrates on the sideline with head coach Kelly Rae Finley during the teams win over the Bethune Cookman Wildcats on Thursday, Nov. 9, 2023.",
-        author_one: "Brandon Hernandez",
-        author_two: "",
-        contact_one: "Contact Brandon Hernandez at bhernandez@alligator.org. Follow him on Twitter @BranH2001.",
-        contact_two: "",
-        about_one: "Brandon Hernandez is currently the enterprise sports writer and sports podcast host for The Independent Alligator. He likes long walks on the sidewalk and watching basketball tape in his off time. You can find most of his work @BranH2001 on X and on The Courtside Podcast on Spotify.",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "Salgues’ mental state has been tested through both injury and isolation. In the aftermath of the COVID-19 pandemic, her and many athletes across the country experienced heightened levels of mental exhaustion, anxiety and depression — reportedly 1.5 to two times more than before the 2020 shutdown, according to data gathered by the NCAA in 2022.",
-        body: "<p>UF graduate student guard Kenza Salgues has become one of the Gators top facilitators coming off the bench. The 5-foot-9-inch guard rolls up the hardwood of the Billy Donovan Court, creating illusions while she entices opponents to reach in &mdash; just to drill an accurate 3-point shot with ease over them.</p><p>The French native has showcased her expertise as a seasoned Division 1 basketball player early this season. However, it&rsquo;s lessons from her days with the Miami Hurricanes while sidelined due to season-ending injuries that seemed never-ending, and have brought her to these moments.</p><p>Salgues&rsquo; mental state has been tested through both injury and isolation. In the aftermath of the COVID-19 pandemic, her and many athletes across the country experienced heightened levels of mental exhaustion, anxiety and depression &mdash; reportedly 1.5 to two times more than before the 2020 shutdown, according to <a href='https://www.ncaa.org/news/2022/5/24/media-center-mental-health-issues-remain-on-minds-of-student-athletes.aspx#:~:text=As%20a%20follow,of%20the%20pandemic.'>data</a> gathered by the NCAA in 2022.</p><p>&ldquo;I went through hell in Miami,&rdquo; she said, emphasizing how her injuries challenged her mental state as she found herself in rehab during most of her four-year tenure with the Hurricanes rather than on the court with her teammates.</p><p>Although now transferred to Florida, she won&rsquo;t forget her turbulent time in Miami &mdash; but instead use it to benefit both herself and the Gators during the 2023-2024 campaign.</p><p><strong>When tragedy struck</strong></p><p>There were 564,712 injuries that occurred between 2014 and 2019 across all collegiate sports programs nationwide &mdash; 25% of them being severe enough to require athletes time off their sport, according to <a href='https://blog.gitnux.com/college-sports-injuries-statistics/#:~:text=High%20School%20RIOTM%20(2019)%20found%20that%20564%2C712%20injuries%20occurred%20between%202014%20and%202019%20across%20all%20collegiate%20sports%20programs%20nationwide%20%2D%20with%2025%25%20of%20these%20being%20severe%20enough%20to%20require%20time%20off%20from%20their%20sport%20according%20to%20NCAA%20data%20(n.d.)'>High School RIOTM (2019)</a>.&nbsp;</p><p>Salgues became one of those athletes, all during and after the COVID-19 pandemic.</p><p>At first, her injuries seemed behind her. Salgues had surgery for her ankle before her first season at Miami, allowing the French prospect to play in 25 games. She led all freshmen at UM 3-point field goals made with 11 on the year and clocked 204 minutes of playing time in her first-year.</p><p>Salgues then went back home to France over the offseason while the COVID-19 pandemic put the world into lockdown. She worked hard to get better for her sophomore year, training for the entire summer. Salgues was in the best shape of her life, she said.</p><p>Then tragedy struck. The guard dislocated her right shoulder during a practice in the offseason. Salgues went into rehab that sidelined her for the majority of her sophomore year.</p><p>&ldquo;I couldn&rsquo;t do anything,&rdquo; she said. &ldquo;I couldn't do the simple stuff: eating, couldn&rsquo;t clothe myself, I had to be dependent on people, which I hated.&rdquo;</p><p>She appeared in the final four games of Miami&rsquo;s 2020-2021 season and looked to come back strong for the next year.</p><p>However, her injured ankle from freshman year would sideline her from the action once again her junior year &mdash; dampening her mood &mdash; resulting in another season-ending surgery. The veteran spent another season in rehab. She didn&rsquo;t play for 936 days.</p><p>Stuck in the States and with the world shut down from the pandemic, Salgues&rsquo; family &mdash; especially her aunt Ticha &mdash; played a huge part in aiding the athlete mentally.</p><p><strong>Early years</strong></p><p>Salgues&rsquo; family introduced her to her love of the game. Her mother played professionally in France and allowed Salgues to train in the gym when she was as young as 3 years old.&nbsp;</p><p>This led Salgues down a path to enroll at 14 in the National Institute of Sports, Expertise and Performance in Paris, an institution run under the administration of the French Ministry of Sports for elite athletes.</p><p>For three years, Salgues practiced twice a day for a scheduled four days per week while she took classes. The regiment was hard for Salgues, but it was an amazing experience she said, as only a few people from every generation are able to do what she did at INSEP.</p><p>The Parisian institute takes a total of 780 elite athletes through its application process, but only 530 will be taken and enrolled for the year. INSEP, which houses 14- to 18-year-old athletes who participate in 28 Olympic and Paralympic sports, has 280 federal coaches on staff and a budget of $38 million euros.</p><p>The institute has produced professional basketball players such as Clint Capela, Boris Diaw, Johan Petro and Hall of Famer Tony Parker.</p><p>&ldquo;It was really hard, but it was definitely good for my personal development,&rdquo; Salgues said. &ldquo;Also, when you&rsquo;re part of it, you're pretty sure of making your national team.&rdquo;</p><p>Salgues played for the French U-16 and U-18 national teams in both the FIBA&rsquo;s U16 Women&rsquo;s European Championship in 2016 and U18 Women&rsquo;s European Championship in 2018.&nbsp;</p><p>By the time she graduated from the institute and committed to play for the Hurricanes, she was <a href='https://miamihurricanes.com/roster/kenza-salgues/#:~:text=Graduate%20of%20the%20National%20Institute%20of%20Sport%2C%20Expertise%20and%20Performance%20in%20Paris%E2%80%A6Ranked%20the%20No.%2020%20international%20player%20in%20the%202018%20class%20by%20ProspectsNations.com%E2%80%A6Four%2Dstar%20prospect%20and%20second%2Dbest%20player%20from%20France'>ranked</a> No. 20 international player in the class of 2018 and the second best player in France.</p><p>Despite an unparalleled upbringing in the sport, a successful career in basketball is never guaranteed.</p><p><strong>Mentally strong: Salgues&rsquo;s transfer to UF</strong></p><p>The Hurricane transfer spent the majority of her time at Miami dealing with a shoulder injury and a recurring ankle injury. Salgues only saw action in 11 games in her senior year at Miami. Through four seasons, Salgues appeared in only 40 games overall.</p><p>After so much time not playing, Salgues knew she needed to make a change.</p><p>&ldquo;I just want to be happy playing the game again,&rdquo; Salgues said.</p><p>She decided to transfer for her last year of eligibility to Florida, looking for playing time in the SEC and to be coached by Florida head coach Kelly Rae Finley.</p><p>She&rsquo;s now tunnel-visioned on rediscovering the joy of playing the game of basketball.</p><p>In the Gators&rsquo; first six games of the season, Salgues averaged 2.8 points per game &mdash; shooting at an 50% clip beyond the arc. The 5-foot-9-inch guard looks to keep this average up with her injuries behind her.</p><p>&ldquo;I don&rsquo;t think there&rsquo;s something that can phase me,&rdquo; Salgues said. &ldquo;I&rsquo;ll never complain. I&rsquo;m just grateful to be able to walk right now, because I was in the scooter and in the cast for so long.&rdquo;</p><p><em>Contact Brandon Hernandez at</em> <a href='mailto:bhernandez@alligator.org'><em>bhernandez@alligator.org</em></a><em>. Follow him on Twitter</em> <a href='https://twitter.com/BranH2001'><em>@BranH2001</em></a> <em>.</em></p>"
+        slug: "",
+    headline_en: "Paloma Peña represents larger Dominican soccer movement on world stage",
+    headline_es: "Paloma Peña representa un movimiento de futbol dominicano en un escenario mundial ",
+    subtitle_en: "The Florida goalkeeper played in February’s CONCACAF Gold Cup and hopes to create soccer-focused momentum in the Dominican Republic",
+    subtitle_es: "La goleadora de la UF jugó en la CONCACAF Copa de Oro en febrero y espera crear un impulso centrado en el fútbol en la República Dominicana",
+    card_path: ".jpg", 
+    author_one: "Liana Handler",
+    author_two: "",
+    translator: "",
+    contact_one_en: "Contact Liana Handler at lhandler@alligator.org. Follow her on Twitter @handlerliana.",
+    contact_two_en: "",
+    contact_one_es: "Contacta a Liana Handler por lhandler@alligator.org. Síguela en X @handlerliana.",
+    contact_two_es: "Traducido por Isabella Rivera. Contáctala por isabellarivera@ufl.edu. Síguela en X @isa_rivera_.",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p>Florida sophomore goalkeeper Paloma Peña received an unforgettable 19th birthday gift: a penalty kick against soccer phenomenon Alex Morgan during February’s CONCACAF Gold Cup group stage.</p><p>Before the match in Carson, California, Peña’s teammates on the Dominican Republic women’s national team surprised her with cake and balloons. Then, with about 25 deep breaths to steady herself, she marched onto the field. </p><p>Just a year ago, Peña was a fan watching the U.S. team play from the Inter Miami stands. But during February’s game, her allegiance was to her teammates on the Dominican squad, she said.</p><p>She didn’t save Morgan’s penalty, but Peña said it was surreal competing against her idols.</p><p>“I remember the whistle blew to start the game, and I was thinking, ‘Am I in a video game right now?’” Peña said. “We told each other to have fun because we knew there was a very slim chance of us winning.”</p><p>Peña is one of four goalkeepers for the Florida Gators women’s soccer team. Though she has yet to don the orange and blue, she embodies the rising soccer movement in the Dominican Republic.</p><p>Historically, baseball dominates the Caribbean nation. All 30 MLB teams have baseball academies in the country and superstars such as David Ortiz, Pedro Martinez and Juan Soto call the island home. </p><p>However, there has been a shift to elevate soccer as a national sport. The Dominican Republic men’s national team will compete in the Olympics Aug. 24 for the first time since 2008. </p><p>Additionally, the Dominican Football Federation announced the country would host the FIFA Women’s U-17 World Cup later this year.</p><p>Even though soccer has increased in popularity over the last few years, American-born Dominican players continue to face internal challenges. Some believe Americans who claim Dominican heritage shouldn’t be able to play for the team.</p><p>With each of her Instagram posts about the Dominican women’s soccer team, Peña said she knows there’s a chance someone might criticize her for her birthplace. Despite this, she still wants to be a part of the movement to represent her culture in international play.</p><p>“We're really trying to get that ball rolling so that there's a better future for the future generations for the D.R. and Dominican girls in the U.S. who also want to play for that team,” Peña said. “We want to represent…ourselves, so I don't see why there's people being hesitant.”</p><p>Back in the U.S., Florida’s goalkeeper coach, Austin O’Connor, anxiously watched the CONCACAF match hoping Peña would construct a quality performance.</p><p>However, against prolific talent such as the U.S., goalkeepers tend to see more action, and Peña rose to the occasion with 16 saves during group play. </p><p>Despite her dominant skill, Peña said she struggled with low confidence at times. Earlier in the year, she was hit by a ball in her face and it took her time to work back to where she was before.</p><p>“You got to be brave, courageous,” she said. “You got to be willing to not only put your voice out there, but your whole body.”</p><p>Peña joined the Gators soccer team in 2023, and within her first season, she worked with assistant head coach Austin O’Connor. </p><p>“I know her team was a little outmatched in those three games,” O’Connor said. “You don't want her to go on this world stage and have a poor experience. You want to have a really good experience, which she did.”</p><p>A goalkeeper’s job is one of the most selfless positions on the field, he said. It’s a game of odds, and most times it’s stacked against the athlete, he said. There’s only so much room a goalkeeper can take up physically.</p><p>“It doesn't really matter how big you are as a player, that goal is just so much bigger,” he said. “You can't save 100% of the shots that are taken on you.”</p><p>O’Connor didn’t know what to expect, but Pena brought a contagious energy and has a high potential, he said.</p><p>“I want to see her on the field,” O’Connor said. “I have tons of hope and tons of faith that she'll do that.”</p><p>Florida graduate defender Emilee Hauser loved playing with Peña, particularly because of her encouragement of teammates and dedication to the game.</p><p>“She is a positive energy,” Hauser said. “She's not afraid to talk to me and tell me what I need to hear even though I am older.”</p><p>Hauser’s favorite memory of Peña’s energy was during a shooting drill in the spring. The team fired continuous shots on goal, and after one of her saves, Peña stood up and screamed.</p><p>O’Connor and one of her fellow goalkeepers, sophomore Jayden Emmanuel, sprinted to her for a chest bump.</p><p>“It just made everyone laugh,” Hauser said.</p><p>Hauser said she never would have guessed that Peña struggled with confidence, especially after representing the Dominican Republic during the game against the U.S.</p><p>“She's played in a huge game,” she said. “She played in the Gold Cup with the Dominican Republic, and she didn't act like this was the first game she's ever played for her country.”</p><p>The Dominican women’s team fell to the U.S. 5-0 and failed to secure a spot in Paris. However, the Caribbean nation’s men’s team will compete in their first Olympic game in over a decade.</p><p>Peña will be rooting for both teams but said she hopes to be in goal during a World Cup or an Olympic game one day. She believes her time on the field isn’t far away.</p><p>“This is a movement that's going to happen, and it's going to be amazing,” Peña said. “I cannot wait to see what Dominican women's soccer looks like.”</p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p>La estudiante de segundo año y goleadora en la UF Paloma Peña recibió un regalo de cumpleaños inolvidable para sus 19: un penal contra el fenómeno del fútbol femenino Alex Morgan durante la CONCACAF Copa de Oro en la fase de grupos. </p><p>Antes del partido en Carson, California, las compañeras de Peña en el equipo nacional femenino de la República Dominicana la sorprendieron con pastel y globos. Después, con cerca de 25 respiraciones profundas para estabilizarse, marchó al campo.  </p><p>Hace solo un año, Peña era una fanática mirando el equipo de los Estados Unidos jugar desde las gradas del estadio de Inter Miami. Pero durante el juego en febrero, su lealtad era hacia sus compañeras en la escuadra dominicana, ella dice. </p><p>No salvo el penal de Morgan, pero Peña dice que fue surreal competir contra sus ídolos. </p><p>“Recuerdo que el pito sonó al principio del juego, y estaba pensando, ‘Estoy en un videojuego ahora mismo?’” dijo Peña. “Nos dijimos uno al otro que había que disfrutar porque sabíamos que había muy poca probabilidad de que ganaramos.” </p><p>Peña es una de las cuatro goleadoras del equipo de fútbol femenino de los Gators de Florida. Aunque todavía le falta ponerse el naranja y el azul, ella encarna el creciente movimiento futbolístico en la República Dominicana. </p><p>Históricamente, el béisbol domina el país del Caribe: cada uno de los 30 equipos de la MLB tienen una academia en el país y superestrellas como David Ortiz, Pedro Martinez y Juan Soto llaman a hogar la isla. </p><p>Sin embargo, ha habido un cambio para elevar el fútbol como el deporte nacional. La selección masculina de República Dominicana competirá en las olimpiadas el 24 de agosto por primera vez desde 2008. Adicionalmente, la Federación de Fútbol Dominicano anunció que el país será anfitrión de la Copa Mundial Femenino U17 este año. </p><p>Aunque el fútbol ha aumentado en popularidad en los últimos años, jugadores Dominicanos nacidos en los Estados Unidos siguen enfrentando desafíos internos. Algunos piensan que los americanos que reclaman herencia dominicana no deberían poder jugar para el equipo nacional. </p><p> Con cada una de sus publicaciones siendo sobre el equipo femenino dominicano, Peña dice que ella sabe que hay probabilidad que alguien pueda criticarlos por su lugar de nacimiento. A pesar de esto, ella todavía quiere ser parte del movimiento de representar su cultura en juego internacional. </p><p> “Realmente estamos intentando hacer rodar esa bola para que haya un futuro mejor para las generaciones futuras para la República Dominicana y niñas dominicanas en los Estados Unidos que también quieren jugar para ese equipo,” dijo Peña. “Queremos representarnos, entonces no veo porque hay personas siendo vacilantes.” </p><p>En los Estados Unidos, el entrenador de porteros de Florida, Austin O’Connor, observó ansiosamente el partido CONCACAF esperando que Peña construyera una ejecución de calidad. </p><p>Contra talento prolífico tal como el de los Estados Unidos, los porteros tienden a ver más acción. Peña estuvo a la altura de las circunstancias con 16 paradas durante la fase de grupos. </p><p>A pesar de su habilidad dominante, Peña dice que a veces luchó contra la baja autoestima. A principios del año, fue golpeada por una pelota en la cara y le tomó tiempo trabajar para volver a donde estaba antes. </p><p>“Tienes que ser valiente”, ella dijo. “Tienes que estar dispuesto a no solo usar tu voz sino tu cuerpo entero”. </p><p>Peña se unió al equipo de fútbol de los Gators en el 2023, y en su primera temporada trabajó con el entrenador asistente Austin O’Connor. </p><p>“Sé que su equipo fue un poco superado en esos tres juegos,” dijo O’Connor. “No quieres que ella salga a ese escenario global y tenga una mala experiencia. Quieres tener una muy buena experiencia, y la tuvo.” </p><p>El trabajo del portero es una de las posiciones más abnegadas en el campo, él dijo. Es un juego de posibilidades y muchas de las veces, está en contra del atleta, dijo. El espacio que un portero puede ocupar físicamente es muy pequeño. </p><p>“No importa que tan grande eres como jugador, el gol es mucho más grande,” él dijo. “No puedes salvar el 100% de los tiros que son asumidos sobre ti.” </p><p>O’Connor no sabia que esperar, pero Peña trajo una energía contagiosa y tiene un potencial alto, dijo. </p><p>“La quiero ver en el campo. Tengo mucha esperanza y fe de que ella lo hará”, dijo O’Connor. </p><p>A la jugadora de defensa graduada de Florida Emilee Hauser le encantó jugar con Peña, particularmente por su aliento de compañeras y dedicación al juego. </p><p>“Ella es una energía positiva”, dijo Hauser. “No le tiene miedo a hablarme y decirme lo que tengo que escuchar aunque yo sea mayor”.</p><p>La memoria favorita de Hauser sobre la energía de Peña fue durante un simulacro de tiro en la primavera. El equipo disparó continuos tiros al arco y después de una de sus paradas, Peña se levantó y gritó. </p><p>O’Connor y una de sus compañeras portera, la estudiante de segundo año Jayden Emmanuel, corrió hacia ella para un golpe de pecho. </p><p>“Solo hizo a todo el mundo reír”, dijo Hauser. </p><p>Hauser dice que ella nunca hubiera adivinado que Peña luchaba con su autoestima, especialmente después de representar a la República Dominicana en un juego contra los Estados Unidos. </p><p>“Ella ha jugado en un gran juego”, dijo. “Ella jugó en la Copa de Oro con la República Dominicana, y no actuó como si fuera el primer juego que ha jugado para su país”. </p><p>El equipo feminino dominicano fue vencido por los Estados Unidos 5-0 y no pudo asegurar un espacio en París. Sin embargo, el equipo masculino de la nación caribeña competirá en su primer juego olímpico en más de una década. </p><p>Peña estará apoyando a ambos equipos pero dice que espera estar en el gol durante un Mundial o juego Olímpico algún día. Ella cree que su tiempo en el campo no está lejos. </p><p>“Este es un movimiento que va a ocurrir, y va hacer maravilloso”, Peña dijo. “No puedo esperar a ver cómo será el fútbol femenino dominicano”.</p>"
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
     }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
+    }
+
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
     }
 
     
@@ -393,50 +498,92 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
-// Article
-document.getElementById('baseball').addEventListener('click', function() {
+document.getElementById('').addEventListener('click', function() {
     const myArticle = {
-        slug: "baseball",
-        headline: "Florida baseball embraces transfer portal with Alabama star Colby Shelton",
-        subtitle: "Shelton is the latest star to transition to the Gators in recent seasons",
-        card_path: "Florida-2.jpg", // Leave blank
-        card_caption: "Chloe Hyde // Alligator staff - The Gators baseball team celebrates Tyler Shelnut’s home run in Florida’s 5-4 win against the South Carolina Gamecocks on Friday, June 9, 2023.",
-        author_one: "Max Tucker",
-        author_two: "",
-        contact_one: "Contact Max at mtucker@alligator.org. Follow him on Twitter @MaxTuckerUF25.",
-        contact_two: "",
-        about_one: "Max Tucker is a junior transfer student at UF. After obtaining his A.A. in Journalism from Santa Fe College in 2023, he chose further his education at Florida's College of Journalism and Communications. Max is currently pursuing his Bachelor of Science in Journalism with a specialization in sports and media. He enjoys golfing and going to the beach with his friends in his free time. Max will be covering the Gators Golf teams this Fall for The Alligator.",
-        about_two: "",
-        date: "", // Leave blank
-        desc: "Being in a comfortable atmosphere is something that can benefit an athlete’s mental health. Although transferring schools can be a large transition, surrounding oneself with the right group of people can create a smooth acclimation.",
-        body: "<p>Being in a comfortable atmosphere is something that can benefit an athlete&rsquo;s mental health. Although transferring schools can be a large transition, surrounding oneself with the right group of people can create a smooth acclimation.</p><p>This is true for Colby Shelton, a talented infielder who transferred from Alabama. The sophomore is a Florida native and adds a powerful swing to Florida&rsquo;s lineup. Shelton plans on playing shortstop for the Gators next Spring.</p><p>He has shared a similar experience that prior transfers went through. Although there will be a great deal of pressure to perform at a high level, the transition to a new team has been seamless for the sophomore.</p><p>&ldquo;My transition here has been really easy,&rdquo; he said. &ldquo;The coaches here have made it a real easy transition, at the end of the day it&rsquo;s just baseball, you can&rsquo;t overthink it.&rdquo;</p><p>The Gators are preparing for another run to the College World Series in their upcoming season. The sophomore transfer is ready to put his talents on display on the biggest stages to help deliver a national championship for his team.</p><p>With the loss of several key contributors from last year&rsquo;s lineup, Shelton envisions himself being one of many key pieces on the road to Omaha.</p><p>&ldquo;I think there&rsquo;s a lot of guys that are gonna play crucial roles,&rdquo; he said. &ldquo;It&rsquo;s going to be bigger than just me myself. I feel like if everyone does the role the best they can do it, it&rsquo;s going to ultimately help out the team best and contribute to us winning a bunch of ball games.&rdquo;</p><p>UF has established themselves as one of the elite collegiate programs in the sport. Year in and year out, the team has multiple players drafted into the MLB. This is a factor that weighed heavily in Shelton&rsquo;s decision to transfer, he said.</p><p>&ldquo;They have a good track record of getting guys drafted,&rdquo; he said. &ldquo;They have a bunch of people that play at the University of Florida in the major leagues and I think that speaks for itself.&rdquo;</p><p>Shelton was ranked as a top-20 impact transfer in September. The sophomore is coming off a stellar season for Alabama en route to collecting Freshman All-American honors. He led the Crimson Tide in home runs, OPS and slugging while raking in an impressive .300 batting average.</p><p>Last season, the transfers from Florida&rsquo;s team played significant roles throughout the year. Head coach Kevin O&rsquo;Sullivan doesn&rsquo;t have a huge track record of obtaining players from the transfer portal throughout his career.&nbsp;</p><p>However, in recent years, the Gators baseball program has seen major contributions from players up and down the lineup who didn't always don the orange and blue.</p><p>BT Riopelle was the starting catcher for the team in 2023. After beginning his career at Coastal Carolina, he took his talents to Gainesville to play against some of the best competition in college baseball.&nbsp;</p><p>There were adjustments that had to be made to gain a level of comfort within the program.</p><p>&ldquo;I think this year has really transitioned well,&rdquo; Riopelle said Feb. 6. &ldquo;If you have a good relationship with all the guys that will transition on the field and make you want to play a little bit better.&rdquo;</p><p>Another member from last season&rsquo;s team who went through similar adjustments was Hurston Waldrep.</p><p>Waldrep was a starting pitcher in the rotation who transferred from Southern Mississippi. Prior to last season, he explained why he chose to further his collegiate career at Florida.</p><p>&ldquo;When I entered the transfer portal I was looking for somewhere that had a good history of a pitching program and good coaching staff and just a solid team overall,&rdquo; Waldrep said on Dec. 7, 2022.</p><p>The transition to a premiere program in the SEC can be a daunting one. However, Waldrep was welcomed with open arms to his new program.</p><p>&ldquo;I&rsquo;m really looking forward to the season because the atmosphere here, the history of this program, these players and what I&rsquo;ve seen so far it&rsquo;s a lot to look forward to,&rdquo; Waldrep said on Dec. 7, 2022.</p><p><br><em>Contact Max at</em> <a href='mailto:mtucker@alligator.org'><em>mtucker@alligator.org</em></a><em>. Follow him on Twitter @MaxTuckerUF25.</em></p>"
+        slug: "",
+    headline_en: "",
+    headline_es: "",
+    subtitle_en: "",
+    subtitle_es: "",
+    card_path: ".jpg", 
+    author_one: "",
+    author_two: "",
+    translator: "",
+    contact_one_en: "",
+    contact_two_en: "",
+    contact_one_es: "",
+    contact_two_es: "",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p> </p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p> </p>"
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
     }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
+    }
+
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
     }
 
     
@@ -448,51 +595,95 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
-// Article
-document.getElementById('volleyball').addEventListener('click', function() {
+document.getElementById('').addEventListener('click', function() {
     const myArticle = {
-        slug: "volleyball",
-        headline: "Gators volleyball stays resilient despite season-ending injuries",
-        subtitle: "UF looks to place in NCAA Championships",
-        card_path: "volleyball.jpg", // Leave blank
-        card_caption: "Gracie Kurtz // Alligator Staff - The Gators volleyball team celebrates after a point in Florida’s 3-0 win against the Winthrop Eagles on Saturday, Sept. 9, 2023. ",
-        author_one: "Krisha Sanghavi",
-        author_two: "Alyssa Britton-Harr",
-        contact_one: "Contact Krisha Sanghavi at ksanghavi@alligator.org. Follow her on Twitter at @krishasang.",
-        contact_two: "Contact Alyssa Britton-Harr at abritton-harr@alligator.org. Follow her on Twitter @abrittonharr.",
-        about_one: "Krisha Sanghavi is a third-year public relations and economics major. In her free time, she loves cheering on Miami sports teams and spending time with her friends.",
-        about_two: "Alyssa Britton-Harr is a second-year journalism major and a sports reporter for The Alligator. In her free time, she enjoys cheering on the Tampa Bay Buccaneers and spending time with her friends. ",
-        date: "", // Leave blank
-        desc: "As the Gators volleyball team battled through the highs and lows of a demanding season, the toll on their mental resilience became increasingly apparent. Facing unforeseen adversities, including season-ending injuries to key players, the team went from an undefeated 8-0 record to a final 18-9 overall record.",
-        body: "<p>In the Gators volleyball team&rsquo;s most prominent test of the season, No. 3 Florida sat one set away from a sweep against the No.1 Wisconsin Badgers.&nbsp;</p><p>However, the strenuous fight took a turn for the worse when Stucky fell to the ground off a jump in an effort to deflect a Wisconsin kill. The ball traced her fingertips to surpass her and tally another Badger point.&nbsp;</p><p>Off the play, the setter endured a season-ending knee injury. The abrupt injury marked the end of Stucky&rsquo;s season but fueled the team to forge together through their mental fortitude. Stucky tore her MCL, leaving the backup setter graduate student Kennedy Muff into the mix.&nbsp;</p><p>&ldquo;We battled with them without our All-American setter,&rdquo; Florida head coach Mary Wise said. &ldquo;I think it speaks to the grit of this team.&rdquo;&nbsp;</p><p>As the Gators volleyball team battled through the highs and lows of a demanding season, the toll on their mental resilience became increasingly apparent. Facing unforeseen adversities, including season-ending injuries to key players, the team went from an undefeated 8-0 record to a final 18-9 overall record.&nbsp;</p><p>In the next set against the Badgers, Stucky&rsquo;s absence became apparent.</p><p>Wisconsin almost doubled Florida&rsquo;s hitting percentage in set three with a 0.406% versus UF&rsquo;s 0.207%. Their momentum after Stucky&rsquo;s injury disappeared as each set tallied another loss to eventually award the Badgers their five-set victory.&nbsp;</p><p>Florida was hit with three season-ending injuries in the current season alone &mdash; Stucky, freshman outside hitter Kira Hutson and graduate student middle blocker Anna Dixon.&nbsp;</p><p>&ldquo;I know they are going to represent all the work we have put in on and off the court,&rdquo; Hutson wrote in a statement. &ldquo;This is just a minor setback to the major comeback!&rdquo;</p><p>The injuries brought the team closer together as they leaned on each other to power through challenges. Their positive team culture displayed on the court through cohesive plays and more mental toughness.&nbsp;</p><p>&ldquo;We really do love each other a lot and we really embody that &lsquo;play for each other&rsquo; mindset,&rdquo; Stucky said. &ldquo;We really grind and work really hard.&rdquo;&nbsp;</p><p>The Gators&rsquo; first regular season tournament, the Road 2 Tampa Bay Invitational, featured sweeps against high-ranked teams such as the then-No. 2 Stanford and then-No. 5 Minnesota.</p><p>Brimming with promise, the team dominated in preseason and early games to claim a top-10 ranking as they strung a chain of victories.</p><p>Ranked No. 8 at the time, Florida entered its matchup against Stanford as underdogs.</p><p>The Gators swept the Cardinal in three sets and dominated in every aspect of the game. Florida surpassed Stanford offensively with 48 kills compared to Stanford&rsquo;s 46. Defensively, UF held its opponent to 35 digs and amassed 42 digs itself.</p><p>&nbsp;Against Minnesota, Florida downed the Golden Gophers in three straight sets with 54 total points to 41.</p><p>The win streak propelled the Gators to the No. 3 in the AVCA Poll rankings.</p><p>After Florida&rsquo;s loss to Wisconsin, the team went on to win its next two matches, including a win over then-No. 24 Auburn, but the Gators hit a downslope when they lost to unranked Texas A&amp;M.&nbsp;</p><p>In its third SEC matchup, UF suffered their second loss of the season against the Aggies.&nbsp;</p><p>The win against No. 4 Florida at the time was Texas A&amp;M&rsquo;s first-ranked conference win in 24 years. Muff contributed with 42 assists, and freshman outside hitter Kennedy Martin delivered 16 kills.</p><p>&ldquo;If you&rsquo;re going to ask for an undersized setter to play [for the] first time in a tough match in this environment, Kennedy Muff is who you want,&rdquo; Wise said of Muff's addition during the game. &ldquo;She has so much guts, I love it.&rdquo;&nbsp;</p><p>&nbsp;Midway into the season, Hutson sustained a season-ending shoulder injury, which rendered her from hitting safely in the sport. She hit a career-high 14 kills and 15.5 points against No. 8 Penn State Aug. 25.</p><p>The game following her announcement, the Gators had their away-game winning streak snapped in a 3-1 loss against Mississippi State Oct. 13.</p><p>&nbsp;Florida regained their momentum and won two consecutive SEC matchups against Texas A&amp;M in four sets and Ole Miss in a three-set sweep toward the end of October. Despite the two wins, the next three weeks were followed by three consecutive SEC losses.</p><p>On Oct. 27, graduate student middle blocker Anna Dixon announced her season-ending elbow and wrist injury. Dixon had a short run with the Gators, but her impact on the team allowed her to reach a season-high of 10 kills against Penn State and mark 18 points against South Florida in the Gators&rsquo; first tournament of the season.</p><p>She switched to middle blocker over the summer before she came to UF from Missouri to help the team with its defense. The graduate student spent most of her career as an outside hitter. At Florida, she recorded 37 digs and 59 block assists to strengthen the Gators&rsquo; defense.</p><p>&ldquo;This is not a goodbye to [volleyball],&rdquo; Dixon wrote after her injury. &ldquo;It&rsquo;s just a goodbye to being a middle blocker.&rdquo;</p><p>Three games after the announcement of Dixon&rsquo;s injury, the Gators lost to three top-20 teams: No. 10 Arkansas, No. 11 Tennessee and No. 13 Kentucky.</p><p>UF fell without the prominent middle blocker, and in the unfortunate circumstances, Florida&rsquo;s poll ranking dropped from No. 14 to No. 21 in the AVCA Poll that week.</p><p>With the team grappling not only with the physical void left by Dixon but the mental strain of constant setbacks, the resilience of middle blockers senior Nnedi Okammor and junior Gabrielle Essix worked to fill the hole left by Dixon between games.</p><p>Okammor has a season-high of 10 blocks against Georgia and 12 kills against Tennessee. Essix recorded a season-high of seven kills against Kentucky and nine blocks against Texas A&amp;M.</p><p>With three season-ending injuries, blocks have been a major component defensively for Florida, but even with a setback, the team made a comeback.</p><p>Despite the injuries, the team strung together enough victories to clinch a spot in the NCAA Tournament. The team&rsquo;s resilient play demonstrated not only the team&rsquo;s physical prowess but also their mental resilience in the face of several season-ending injuries.</p><p>The Gators volleyball team fought through the adversity of injuries to achieve an overall 18-9 record and a 10-8 SEC record so far. Florida will play Florida Gulf Coast as the fourth seed in the NCAA Tournament at 7 p.m. Thursday in the Stephen C. O&rsquo;Connell Center.</p><p><em>Contact Krisha Sanghavi and Alyssa Britton-Harr at</em> <a href='mailto:ksanghavi@alligator.org'><em>ksanghavi@alligator.org</em></a> <em>and</em> <a href='mailto:abritton-harr@alligator.org'><em>abritton-harr@alligator.org</em></a><em>. Follow them on Twitter @krishasang and</em> <a href='https://twitter.com/abrittonharr'><em>@abrittonharr</em></a> <em>.</em></p>"
+        slug: "",
+    headline_en: "",
+    headline_es: "",
+    subtitle_en: "",
+    subtitle_es: "",
+    card_path: ".jpg", 
+    author_one: "",
+    author_two: "",
+    translator: "",
+    contact_one_en: "",
+    contact_two_en: "",
+    contact_one_es: "",
+    contact_two_es: "",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p> </p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p> </p>"
     };
 
     const parent = document.querySelector("#articleContainer");
 
     
-    parent.querySelector('#articleTitle').innerText = myArticle.headline;
-    parent.querySelector('#articleSubtitle').innerText = myArticle.subtitle;
-    parent.querySelector('#articleAuthor').innerText = myArticle.author_one;
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
 
     if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAuthor').innerHTML += ' and ' + myArticle.author_two;
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
     }
-    parent.querySelector('#articleDate').innerText = 'Monday, Nov. 27, 2023';
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
+    }
+
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
     parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
-    parent.querySelector('#articleBody').innerHTML = myArticle.body;
-    parent.querySelector('#articleAbout').innerText = myArticle.about_one;
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
 
-parent.querySelector('#articleCardCaption').style.display = "block";
 
-    if (myArticle.card_caption) {
-        parent.querySelector('#articleCardCaption').innerText = myArticle.card_caption;
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
     } else {
-        parent.querySelector('#articleCardCaption').style.display = "none";
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
     }    
 
-    if (myArticle.author_two.length > 4) {
-        parent.querySelector('#articleAbout').innerHTML += '<br><br>' + myArticle.about_two;
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
     }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
+    }
+
+    
 
     
 
@@ -501,3 +692,99 @@ parent.querySelector('#articleCardCaption').style.display = "block";
     myModal.show();
 }, false);
 
+document.getElementById('').addEventListener('click', function() {
+    const myArticle = {
+        slug: "",
+    headline_en: "",
+    headline_es: "",
+    subtitle_en: "",
+    subtitle_es: "",
+    card_path: ".jpg", 
+    author_one: "",
+    author_two: "",
+    translator: "",
+    contact_one_en: "",
+    contact_two_en: "",
+    contact_one_es: "",
+    contact_two_es: "",
+    about_one_en: "",
+    about_two_en: "",
+    about_one_es: "",
+    about_two_es: "",
+    date: "", 
+    desc_en: "",
+    desc_es: "",
+    body_en: "<p> </p>", // Paste FORMATED and MINIFIED article text here
+    body_es: "<p> </p>"
+    };
+
+    const parent = document.querySelector("#articleContainer");
+
+    
+    parent.querySelector('#articleTitleEN').innerText = myArticle.headline_en;
+    parent.querySelector('#articleSubtitleEN').innerText = myArticle.subtitle_en;
+    parent.querySelector('#articleTitleES').innerText = myArticle.headline_es;
+    parent.querySelector('#articleSubtitleES').innerText = myArticle.subtitle_es;
+    parent.querySelector('#articleAuthorEN').innerText = myArticle.author_one;
+    parent.querySelector('#articleAuthorES').innerText = myArticle.author_one;
+
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorEN').innerHTML += ' and ' + myArticle.author_two;
+    }
+    if (myArticle.author_two.length > 4) {
+        parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
+    }
+    if (myArticle.translator.length > 4) {
+        parent.querySelector('#articleTranslator').innerHTML += ' y ' + myArticle.author_two;
+    }
+
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleCardImage').setAttribute('src', 'images/' + myArticle.card_path);
+    parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
+    parent.querySelector('#articleAboutEN').innerText = myArticle.about_one_en;
+    parent.querySelector('#articleBodyES').innerHTML = myArticle.body_es;
+    parent.querySelector('#articleAboutES').innerText = myArticle.about_one_es;
+
+
+    parent.querySelector('#articleContactEN').innerHTML = myArticle.contact_one_en;
+    parent.querySelector('#articleContactES').innerHTML = myArticle.contact_one_es;
+    if (myArticle.contact_one_en.length > 4) {
+        parent.querySelector('#articleContactEN').innerHTML += ' \n' + myArticle.contact_two_en;
+    }
+    if (myArticle.contact_one_es.length > 4) {
+        parent.querySelector('#articleContactES').innerHTML += ' \n' + myArticle.contact_two_es;
+    }
+    
+
+    parent.querySelector('#articleCardCaptionEN').style.display = "block";
+    parent.querySelector('#articleCardCaptionES').style.display = "block";
+
+
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionEN').innerText = myArticle.card_caption_en;
+    } else {
+        parent.querySelector('#articleCardCaptionEN').style.display = "none";
+    }
+    if (myArticle.card_caption_en) {
+        parent.querySelector('#articleCardCaptionES').innerText = myArticle.card_caption_es;
+    } else {
+        parent.querySelector('#articleCardCaptionES').style.display = "none";
+    }    
+
+
+    if (myArticle.about_two_en.length > 4) {
+        parent.querySelector('#articleAboutEN').innerHTML += '<br><br>' + myArticle.about_two_en;
+    }
+    if (myArticle.about_two_es.length > 4) {
+        parent.querySelector('#articleAboutES').innerHTML += '<br><br>' + myArticle.about_two_es;
+    }
+
+    
+
+    
+
+    window.location.hash = myArticle.slug;
+
+    myModal.show();
+}, false);
