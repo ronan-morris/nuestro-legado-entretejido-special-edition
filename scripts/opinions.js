@@ -58,12 +58,16 @@ document.getElementById('home-ink').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -158,12 +162,16 @@ document.getElementById('diego').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -225,7 +233,7 @@ document.getElementById('latin-roots').addEventListener('click', function() {
     card_caption_en: "",
     card_caption_es: "",
     author_one: "Charles Duprey Romero-Langlois",
-author_two: "",
+    author_two: "",
     translator: "Isabela Reinoso",
     contact_one_en: "Charles Duprey Romero-Langlois is a second-year UF Graduate Student.",
     contact_two_en: "",
@@ -258,12 +266,13 @@ author_two: "",
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -358,12 +367,16 @@ document.getElementById('learning-relove').addEventListener('click', function() 
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -424,7 +437,7 @@ document.getElementById('vivi').addEventListener('click', function() {
     card_path: "opinions.jpeg", 
     card_caption_en: "",
     card_caption_es: "",
-    author_one: "",
+    author_one: "Vivienne Serret",
     author_two: "",
     translator: "",
     contact_one_en: "Vivienne Serret is a UF journalism and criminology senior.",
@@ -458,12 +471,16 @@ document.getElementById('vivi').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;

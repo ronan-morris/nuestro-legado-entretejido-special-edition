@@ -57,12 +57,16 @@ document.getElementById('latin-dance').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -157,12 +161,16 @@ document.getElementById('MaryCruz').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -257,12 +265,16 @@ document.getElementById('restaurants').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -357,12 +369,16 @@ document.getElementById('reading-gap').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -457,12 +473,16 @@ document.getElementById('voting').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
@@ -557,12 +577,16 @@ document.getElementById('ice').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
+    else{
+        parent.querySelector('#articleTranslator').style.display = "none";
+    }
 
-    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
-    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 28, 2024';
+    parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
+    parent.querySelector('#articleDateES').innerText = 'Lunes, Jul. 29, 2024';
     parent.querySelector('#articleCardImageEN').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleCardImageES').setAttribute('src', 'images/' + myArticle.card_path);
     parent.querySelector('#articleBodyEN').innerHTML = myArticle.body_en;
