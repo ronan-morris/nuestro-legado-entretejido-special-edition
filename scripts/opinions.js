@@ -63,7 +63,7 @@ document.getElementById('home-ink').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -167,7 +167,7 @@ document.getElementById('diego').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -266,9 +266,12 @@ document.getElementById('latin-roots').addEventListener('click', function() {
     if (myArticle.author_two.length > 4) {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
-    parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
+    
     if (myArticle.translator.length > 4) {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
+    }
+    else{
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -372,7 +375,7 @@ document.getElementById('learning-relove').addEventListener('click', function() 
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -476,7 +479,7 @@ document.getElementById('vivi').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';

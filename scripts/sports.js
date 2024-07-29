@@ -62,7 +62,7 @@ document.getElementById('paloma-pena').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -166,7 +166,7 @@ document.getElementById('gaby-cornier').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';

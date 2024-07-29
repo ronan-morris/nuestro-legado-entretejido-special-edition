@@ -62,7 +62,7 @@ document.getElementById('latin-dance').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -166,7 +166,7 @@ document.getElementById('MaryCruz').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -270,7 +270,7 @@ document.getElementById('restaurants').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -374,7 +374,7 @@ document.getElementById('reading-gap').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -478,7 +478,7 @@ document.getElementById('voting').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
@@ -582,7 +582,7 @@ document.getElementById('ice').addEventListener('click', function() {
         parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
     else{
-        parent.querySelector('#articleTranslator').style.display = "none";
+        parent.querySelector('#articleTranslator').innerHTML ='';
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 29, 2024';
