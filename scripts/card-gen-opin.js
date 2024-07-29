@@ -52,7 +52,7 @@ const allArticles = [
     }, {
         slug: "latin-roots",
     headline_en: "Latin roots and cultural resilience in education",
-    headline_es: "",
+    headline_es: "Raíces latinas y resiliencia cultural en la educación",
     subtitle_en: "",
     subtitle_es: "",
     card_path: "opinions.jpeg", 

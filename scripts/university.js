@@ -58,7 +58,7 @@ document.getElementById('children-book').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -158,7 +158,7 @@ document.getElementById('club-lectura').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -257,7 +257,7 @@ document.getElementById('first-gen').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -357,7 +357,7 @@ document.getElementById('hlsa').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -457,7 +457,7 @@ document.getElementById('latam').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';

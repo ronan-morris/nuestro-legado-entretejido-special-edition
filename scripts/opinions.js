@@ -59,7 +59,7 @@ document.getElementById('home-ink').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -159,7 +159,7 @@ document.getElementById('diego').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -218,7 +218,7 @@ document.getElementById('latin-roots').addEventListener('click', function() {
     const myArticle = {
         slug: "latin-roots",
     headline_en: "Latin roots and cultural resilience in education",
-    headline_es: "",
+    headline_es: "Raíces latinas y resiliencia cultural en la educación",
     subtitle_en: "",
     subtitle_es: "",
     card_path: "opinions.jpeg", 
@@ -259,7 +259,7 @@ author_two: "",
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -359,7 +359,7 @@ document.getElementById('learning-relove').addEventListener('click', function() 
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
@@ -459,7 +459,7 @@ document.getElementById('vivi').addEventListener('click', function() {
         parent.querySelector('#articleAuthorES').innerHTML += ' y ' + myArticle.author_two;
     }
     if (myArticle.translator.length > 4) {
-        parent.querySelector('#articleTranslator').innerHTML =  myArticle.translator;
+        parent.querySelector('#articleTranslator').innerHTML ='Traducido por ' + myArticle.translator;
     }
 
     parent.querySelector('#articleDateEN').innerText = 'Monday, Jul. 28, 2024';
